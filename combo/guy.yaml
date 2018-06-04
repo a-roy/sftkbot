@@ -1,0 +1,65 @@
+# hitconfirm
+- combo: "cr.LK, cr.LP, st.MP > HP xx qcf+K > MK"
+  damage: 215
+  tags: [low, 0bar, hitconfirm, medium, bnb]
+- combo: "cr.MP, st.MP > HP xx qcb+MP"
+  comment: "Enders: `ender /^qcb+P`"
+  tags: [hitconfirm, 0bar, medium, corner, bnb]
+- combo: "cr.LP, cr.LP, cr.MP, st.MP xx qcf+K > MK"
+  damage: 222
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cr.HP, st.MP xx qcf+K > MK"
+  damage: 246
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cl.MK, cr.MP, st.MP xx qcb+LP"
+  tags: [hitconfirm, 0bar, medium]
+  comment: "Enders: `ender /^qcb+P`"
+- combo: "cl.HK, st.MP > HP xx qcf+K > MK"
+  damage: 274
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cr.LK, cr.LK, cr.LK, st.MP xx qcf+K > MK"
+  damage: 198
+  tags: [low, 0bar, hitconfirm, hard]
+- combo: "cr.LK, cl.MP, st.MP > HP xx qcf+K > MK"
+  damage: 245
+  tags: [low, 0bar, hitconfirm, medium]
+# buffer
+- combo: "st.MP xx qcb+PP"
+  tags: [low, 1bar, buffer, easy]
+  comment: "Enders: `ender /^qcb+PP`"
+# punish
+- combo: "cr.HP, st.MP xx qcb+PP"
+  tags: [punish, 1bar, easy]
+  comment: "Enders: `ender /^qcb+PP`"
+- combo: "st.HK, st.MP > HP xx qcb+PP"
+  tags: [punish, 1bar, easy]
+  comment: "Enders: `ender /^qcb+PP`"
+- combo: "st.LP > MP > HP > HK"
+  tags: [punish, 0bar, easy]
+  comment: "Enders: `ender /^LP > MP > HP > HK`"
+# juggle
+- combo: "cl.MK, st.MP > HP xx qcb+HK"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.HK, st.MP > HP xx qcb+HK"
+  tags: [juggle, 0bar, medium]
+- combo: "LP > MP > HP > HK xx Jump, (air) qcf+MP"
+  tags: [juggle, 0bar, medium]
+# ender
+- combo: "LP > MP > HP > HK, walk forward, LP > MP > HP > HK xx Jump, (air) qcf+MP"
+  tags: [ender, 0bar, medium, bnb]
+- combo: "LP > MP > HP > HK xx Super Jump xx qcf+LK > LK, cr.MP, st.MP > HP xx qcb+HK"
+  tags: [ender, 0bar, hard]
+- combo: "LP > MP > HP > HK xx Forward Jump, (slight delay) j.HK, cl.MP > HP xx qcb+HK"
+  tags: [ender, 0bar, hard]
+- combo: "LP > MP > HP > HK xx Neutral Jump, (delay) nj.HK, cl.MP, cl.HP xx qcb+HK"
+  tags: [ender, 0bar, corner, medium]
+- combo: "qcb+P, cr.MP, walk forward, cl.MK, cl.HP xx qcb+HK"
+  tags: [ender, 0bar, medium, bnb]
+- combo: "qcb+P, LP > MP > HP > HK xx Jump, (air) qcf+MP"
+  tags: [ender, 0bar, easy]
+- combo: "qcb+PP, walk forward, LP > MP > HP > HK xx Jump, (air) qcf+MP"
+  tags: [ender, 1bar, easy]
+- combo: "qcb+PP, dash forward, cl.HK, st.MP > HP xx qcb+HK"
+  tags: [ender, 1bar, medium, bnb]
+- combo: "qcb+PP, dash forward, cl.MP > HP xx qcf+LK > LK, cl.HP xx qcb+HK"
+  tags: [ender, 1bar, medium]

@@ -1,0 +1,69 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, st.LP, cr.LK xx qcb+HP"
+  damage: 189
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cl.HP, cr.MP xx qcb+HP"
+  damage: 262
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "f+MP, cr.MP, cr.LK xx qcb+HP"
+  damage: 242
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cl.MP, st.LP, cr.LK xx qcb+HP"
+  damage: 212
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cl.MP, f+MP, cr.MP xx qcb+HP"
+  damage: 266
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cl.LP, cr.MP, cr.MP xx *P*"
+  damage: 208
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cl.LP, cl.MP, cr.HP xx qcb+HP"
+  damage: 260
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cl.LP, cr.MP, cr.MP xx *P*, cl.HK xx qcb+HP(3), cl.HP, cl.HK xx *P*"
+  damage: 375
+  tags: [hitconfirm, 0bar, corner, medium, bnb]
+- combo: "cl.MP, f+MP, cr.MP xx *P*, cl.HK, xx qcb+HP(3), cl.HP, cl.HK xx *P*"
+  damage: 405
+  tags: [hitconfirm, 0bar, corner, medium]
+# safe
+- combo: "f+HK, f+MP, cr.HP xx *P*/qcf+MK"
+  damage: 292
+  tags: [safe, 0bar, standing, medium]
+# buffer
+- combo: "cr.LK xx qcb+HP"
+  damage: 170
+  tags: [low, 0bar, buffer, easy]
+# punish
+- combo: "cl.HP, cr.HP xx qcb+HP"
+  damage: 292
+  tags: [punish, 0bar, easy, bnb]
+- combo: "cl.HP, cr.HP xx *PP*, f+HK, cr.MP xx *P*/qcf+MK"
+  damage: 409
+  comment: "Requires pre-charge"
+  tags: [punish, 1bar, midscreen, medium]
+- combo: "cl.HP, cr.HP xx *PP*, f+HK, cr.HP xx *P*/qcf+MK"
+  damage: 427
+  comment: "Requires pre-charge"
+  tags: [punish, 1bar, midscreen, medium]
+- combo: "cl.HP, cr.HP xx *P*, cl.HK xx qcb+HP, cl.HP, cl.HK xx *P*"
+  damage: 470
+  comment: "Requires pre-charge"
+  tags: [punish, 0bar, corner, medium, bnb]
+# invulnerable
+- combo: "*PP*, cr.MK, cr.MP xx *P*/qcf+MK"
+  damage: 279
+  tags: [invulnerable, 1bar, easy]
+- combo: "*PP*, f+HK, cr.MP xx *P*/qcf+MK"
+  damage: 308
+  tags: [invulnerable, 1bar, medium]
+- combo: "*PP*, f+HK, cr.HP xx *P*/qcf+MK"
+  damage: 332
+  tags: [invulnerable, 1bar, medium]
+# juggle
+- combo: "cl.HP, cr.MP xx *P*"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.HP, cr.HP xx *P*"
+  tags: [juggle, 0bar, corner, medium]
+- combo: "cl.MP, cr.HP xx qcf+LK"
+  tags: [juggle, 0bar, easy]

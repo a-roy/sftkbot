@@ -1,0 +1,53 @@
+# safe
+- combo: "EWGF, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
+  damage: 462
+  tags: [safe, 0bar, hard, bnb]
+- combo: "EWGF, EWGF, walk forward cr.HP xx EWGF, st.HP xx EWGF, EWGF"
+  damage: 486
+  tags: [safe, 0bar, veryhard]
+- combo: "EWGF, EWGF, cr.HP xx EWGF, cr.HP xx EWGF, EWGF"
+  damage: 486
+  tags: [safe, 0bar, corner, hard]
+- combo: "EWGF, st.HP xx EWGF, st.HP xx CD>K"
+  damage: 375
+  comment: "EX charge setup"
+  tags: [safe, 0bar, hard]
+# buffer
+- combo: "cr.MK xx CD~EWGF, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
+  damage: 457
+  tags: [buffer, 0bar, low, hard]
+- combo: "cr.MK xx CD~EWGF, EWGF, walk forward cr.HP xx EWGF, st.HP xx EWGF,
+  EWGF"
+  damage: 478
+  tags: [buffer, 0bar, low, veryhard]
+- combo: "cr.MK xx CD~EWGF, st.HP xx EWGF, st.HP xx CD>K"
+  damage: 391
+  comment: "EX charge setup"
+  tags: [buffer, 0bar, low, hard]
+# overhead
+- combo: "f+MK, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
+  damage: 449
+  tags: [overhead, 0bar, counterhit, hard, bnb]
+- combo: "f+LK, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
+  damage: 462
+  tags: [overhead, 0bar, counterhit, hard]
+- combo: "f+MK, EWGF, cr.HP xx EWGF, cr.HP xx EWGF, EWGF"
+  damage: 473
+  tags: [overhead, 0bar, counterhit, corner, hard]
+- combo: "f+LK, EWGF, cr.HP xx EWGF, cr.HP xx EWGF, EWGF"
+  damage: 486
+  tags: [overhead, 0bar, counterhit, corner, hard]
+# juggle
+- combo: "EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
+  tags: [juggle, 0bar, hard, bnb]
+- combo: "EWGF, cr.HP xx EWGF, st.HP xx EWGF, EWGF"
+  tags: [juggle, 0bar, veryhard]
+- combo: "st.MP, st.HP xx CD>K"
+  comment: "EX charge setup"
+  tags: [juggle, 0bar, easy]
+- combo: "st.MP, f+MK, cr.HP xx CD>K"
+  comment: "EX charge setup"
+  tags: [juggle, 0bar, medium]
+- combo: "cr.HP xx EWGF, st.HP xx CD>K"
+  comment: "EX charge setup"
+  tags: [juggle, 0bar, hard, bnb]

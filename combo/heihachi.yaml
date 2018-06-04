@@ -1,0 +1,56 @@
+# hitconfirm
+- combo: "f+LP>LP xx dp+HP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 342
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cr.MP, cl.HK xx dp+MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 382
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cr.MP, cl.HK xx qcf+HP, st.MP, cl.HK xx dp+K>P"
+  damage: 390
+  tags: [hitconfirm, 0bar, corner, medium, bnb]
+- combo: "f+LK, cl.HK xx dp+MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 372
+  tags: [hitconfirm, 0bar, medium, bnb]
+# safe
+- combo: "b+LK, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 369
+  tags: [safe, 0bar, easy]
+# punish
+- combo: "st.MK(1) xx dp+LP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 342
+  tags: [punish, 0bar, easy]
+- combo: "st.LK xx dp+LP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 322
+  tags: [punish, 0bar, easy]
+- combo: "st.MP/cr.MK xx dp+PP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 392
+  tags: [punish, 1bar, easy]
+- combo: "cl.HK xx qcf+LP, b+MP xx dp+MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 382
+  tags: [punish, 0bar, easy, bnb]
+- combo: "cl.HK xx qcf+LP, b+MP xx qcf+HP, cr.MP, cl.HK xx dp+K>P"
+  damage: 426
+  tags: [punish, 0bar, corner, easy, bnb]
+# low
+- combo: "f+MP, st.MK(1) xx dp+LP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 352
+  tags: [low, 0bar, easy]
+- combo: "f+MP, st.LK xx qcf+LP, b+MP xx dp+MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 357
+  tags: [low, 0bar, easy, bnb]
+# overhead
+- combo: "b+LP, st.MK(1) xx dp+LP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 362
+  tags: [overhead, 0bar, medium]
+- combo: "b+LP, st.LK xx qcf+LP, b+MP xx dp+MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 367
+  tags: [overhead, 0bar, medium, bnb]
+- combo: "(f+LP)>MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 329
+  tags: [overhead, 0bar, easy]
+- combo: "f+[LP+MP] (lv. 2), cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  damage: 409
+  tags: [overhead, 0bar, easy]
+# juggle
+- combo: "cl.HP xx dp+MP, cl.HP xx dp+K>P"
+  tags: [juggle, 0bar, easy, bnb]

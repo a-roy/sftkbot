@@ -1,0 +1,67 @@
+# hitconfirm
+- combo: "cr.LK~cl.MP, st.LP>b+MP xx dp+LK>LK>LP+MP"
+  damage: 201
+  tags: [hitconfirm, 0bar, low, medium, bnb]
+- combo: "cr.LK~cl.MP, st.LP, cr.LP, cr.HP xx dp+K>LP, cr.MP, cr.HP xx dp+HP>K"
+  damage: 281
+  tags: [hitconfirm, 0bar, low, hard]
+- combo: "cr.LP, cr.LP, cr.HP xx dp+K>LP, st.LP>b+MP xx dp+LK>MP,
+  cr.HP xx dp+MK>MP"
+  damage: 325
+  tags: [hitconfirm, 0bar, hard, bnb]
+- combo: "st.LP>LK>LK xx hcf+KK, cl.HP xx dp+K>MP, cl.HP xx dp+K>MP"
+  damage: 372
+  tags: [hitconfirm, 1bar, low, corner, easy]
+# buffer
+- combo: "st.LK~cl.MK~cr.HP xx hcf+KK, cl.MP, cr.HP xx dp+K>LP, cr.MP,
+  cr.HP xx dp+HP>K"
+  damage: 321
+  tags: [low, 1bar, buffer, medium]
+- combo: "st.LK xx hcf+MK>P, st.LP>b+MP xx dp+LK>MP, cl.HP xx dp+K>MP"
+  damage: 317
+  tags: [low, 0bar, buffer, corner, easy]
+# punish
+- combo: "cr.HP xx dp+K>LP, st.LP>b+MP xx dp+LK>MP, cr.HP xx dp+LK>MP"
+  damage: 389
+  tags: [punish, 0bar, hard, bnb]
+- combo: "dp+K>LP+MP, dp+K>MP, cr.HP xx dp+K>MP, qcf+HP"
+  damage: 445
+  tags: [punish, 0bar, midscreen, medium]
+- combo: "dp+K>LP+MP, cl.HP xx dp+K>MP, cl.HP xx dp+MK>MP"
+  damage: 435
+  tags: [punish, 0bar, corner, easy]
+# low
+- combo: "(st.MK)>MK~cr.HP xx hcf+KK, cl.MP, cr.HP xx dp+K>LP, cr.MP,
+  cr.HP xx dp+HP>K"
+  damage: 340
+  tags: [low, 1bar, medium]
+# overhead
+- combo: "(st.LP>b+MP)>LP+MP xx dp+MK>LP, st.LP>b+MP xx dp+LK>MP,
+  cr.HP xx dp+MK>MP"
+  damage: 379
+  tags: [overhead, 0bar, hard, bnb]
+- combo: "(st.MK)>HP, cr.HP xx dp+K>LP, st.LP>b+MP xx dp+LK>MP,
+  cr.HP xx dp+MK>MP"
+  damage: 401
+  tags: [overhead, 0bar, hard, bnb]
+- combo: "cr.HK>HK>HK, qcf+HP"
+  damage: 200
+  tags: [overhead, 0bar, easy]
+# counterhit
+- combo: "CH cr.MK xx dp+MK>LP, st.LP>b+MP xx dp+LK>MP, cr.HP xx dp+MK>MP"
+  damage: 384
+  tags: [low, 0bar, buffer, counterhit]
+# antiair
+- combo: "dp+LP>P, walk forward st.LK~st.MK>MP>HP xx dp+HP>K"
+  damage: 289
+  tags: [antiair, 0bar, easy, bnb]
+- combo: "dp+LP>P, walk forward cr.HP xx dp+HP>K"
+  damage: 302
+  tags: [antiair, 0bar, medium]
+# juggle
+- combo: "cr.MP, cr.HP xx dp+HP>P"
+  tags: [juggle, 0bar, easy]
+- combo: "cr.MP, cr.HP xx dp+HP>K"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cl.HP xx dp+K>MP, walk forward cr.HP xx dp+K>MP"
+  tags: [juggle, 0bar, medium, bnb]

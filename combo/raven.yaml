@@ -1,0 +1,83 @@
+- combo: "st.LP, st.LP, cr.MP xx qcb+P, cr.LK, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 336
+  tags: [hitconfirm, 0bar, easy]
+- combo: "st.LP, st.LP, cr.MP xx qcb+P, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 351
+  tags: [hitconfirm, 0bar, midscreen, medium]
+- combo: "st.LP, st.LP, cr.MP xx qcb+P, cl.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 354
+  tags: [hitconfirm, 0bar, midscreen, medium, bnb]
+- combo: "cl.HK, cr.MP xx qcb+P, cr.LK, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 436
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cl.HK, cr.MP xx qcb+P, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 448
+  tags: [punish, 0bar, midscreen, medium]
+- combo: "cl.HK, cr.MP xx qcb+P, cl.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 457
+  tags: [punish, 0bar, midscreen, hard, bnb]
+- combo: "cr.HP xx qcb+P(delay), cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 435
+  tags: [punish, 0bar, midscreen, medium, bnb]
+- combo: "cr.LK, st.LP, cr.HP xx qcb+P(delay), cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 375
+  tags: [low, 0bar, hitconfirm, midscreen, hard, bnb]
+- combo: "b+MK>MK,cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 337
+  tags: [overhead, 0bar, counterhit, easy]
+- combo: "b+MK>MK, qcb+P, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 400
+  tags: [overhead, 0bar, counterhit, midscreen, medium]
+- combo: "b+MK>MK,cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 317
+  tags: [overhead, 0bar, antibackdash, easy]
+- combo: "b+MK>MK, qcb+P, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 395
+  tags: [overhead, 0bar, antibackdash, midscreen, medium]
+- combo: "st.HP, j.HK, nj.HK, j.HK, nj.HK, qcf+HK"
+  damage: 497
+  tags: [counterhit, 0bar, hard]
+- combo: "j.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 354
+  tags: [air2air, counterhit, 0bar, easy]
+- combo: "j.HK, nj.HK, j.HK, nj.HK, qcf+HK"
+  damage: 440
+  tags: [air2air, 0bar, hard]
+- combo: "st.MK, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 342
+  tags: [antiair, 0bar, counterhit, easy]
+- combo: "qcf+PP, cl.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 385
+  tags: [punish, 1bar, easy, bnb]
+- combo: "qcf+PP, st.HK, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 415
+  tags: [punish, 1bar, easy, bnb]
+- combo: "qcf+PP, qcb+P, cr.HP xx CADC, cl.HP xx qcf+HK"
+  damage: 445
+  tags: [punish, 1bar, midscreen, easy, bnb]
+- combo: "cl.HK, cr.MP xx qcb+P, cl.HP, xx qcf+PP, j.HK, qcf+HK"
+  damage: 510
+  tags: [punish, 1bar, midscreen, hard]
+- combo: "cl.HK, cr.MP xx qcb+P, cl.HP, xx qcb+PPP"
+  damage: 549
+  tags: [punish, 2bar, midscreen, medium]
+- combo: "cl.MP, cr.HP xx CADC, cl.HP, xx qcf+HK"
+  tags: [juggle, 0bar, easy, bnb]
+  comment: "Works from all tags and launchers, may have to hold forward on
+  cl.MP"
+- combo: "qcb+P, cr.HP xx CADC, cl.HP, xx qcf+HK"
+  tags: [juggle, 0bar, height-specific, character-specific, medium, bnb]
+  comment: "Works tagged from all groundbounce moves,
+  certain air moves and from Vega's launcher"
+- combo: "j.HK, nj.HK, j.HK, nj.HK, qcf+HK"
+  tags: [juggle, 0bar, height-specific, hard]
+  comment: "Works from all raw-tagged launchers and some multi hitting air
+  moves"
+- combo: "b+MK>MK, HP+HK"
+  tags: [juggle, 0bar, relaunch, easy]
+- combo: "cr.HP xx CADC, cr.HP"
+  tags: [juggle, 0bar, tag-setup, easy]
+  comment: "to tag people back in, duh"
+- combo: "cr.HP xx CADC, cl.HK"
+  tags: [juggle, 0bar, tag-setup, medium]
+  comment: "to tag people back in, may have to hold back on the cl.HK"

@@ -1,0 +1,53 @@
+# hitconfirm
+- combo: "cr.LP, cr.MP, cr.MK xx qcf+LP>d+P, walk forward cl.HP xx qcf+LK>P"
+  damage: 297
+  tags: [hitconfirm, 0bar, close, medium, bnb]
+- combo: "cr.MP, cr.MP, cr.MK xx qcf+LP>d+P, walk forward cl.HP xx qcf+LK>P"
+  damage: 327
+  tags: [hitconfirm, 0bar, close, medium, bnb]
+- combo: "cl.MK, cr.MP, cr.MK xx qcf+LP>d+P, walk forward cl.HP xx qcf+LK>P"
+  damage: 327
+  tags: [hitconfirm, 0bar, close, medium]
+- combo: "cr.HP, cr.MK xx qcf+LP>d+P, walk forward cl.HP xx qcf+LK>P"
+  damage: 340
+  tags: [hitconfirm, 0bar, close, medium]
+- combo: "cr.MP, cr.HP xx qcf+LK>K, cl.MK, cr.MP, cr.MK xx qcf+LK>P"
+  damage: 358
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cr.LK, cr.MP, cr.HP xx qcf+LK>K, cl.MK, cr.MP, cr.MK xx qcf+LK>P"
+  damage: 335
+  tags: [hitconfirm, 0bar, low, close, medium]
+
+- combo: "st.HK xx qcf+LP>d+P, walk forward cl.HP xx qcf+LK>P"
+  damage: 317
+  tags: [medium, 0bar]
+
+# punish
+- combo: "cl.HP xx qcf+LK>K, cl.MK, cr.MP, cr.MK xx qcf+LK>P"
+  damage: 366
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cl.HP xx qcf+LK>K, cl.HP xx dp+KK, dp+HK"
+  damage: 412
+  tags: [punish, 1bar, easy, bnb]
+- combo: "cl.HP xx qcf+LP>P, cr.MP, cr.MP, cl.HP xx dp+HK"
+  damage: 377
+  tags: [punish, 0bar, corner, medium]
+- combo: "st.HK xx qcf+LP>P, cr.MP, cr.MP, cl.HP xx dp+HK"
+  damage: 377
+  tags: [punish, 0bar, corner, medium]
+- combo: "cr.MK xx qcf+LP>P, cr.HP, cl.HP xx dp+HK"
+  damage: 344
+  tags: [punish, 0bar, corner, medium, bnb]
+
+# yolo
+- combo: "qcf+KK>K, cl.HP xx qcf+LK, cr.LP, walk forward cl.HP xx dp+HK"
+  damage: 387
+  tags: [yolo, 1bar, medium, bnb]
+
+# juggle
+- combo: "cl.HP xx qcf+LK, cr.LP, walk forward cl.HP xx dp+HK"
+  tags: [juggle, 0bar, medium, bnb]
+  comment: "BnB post-launch"
+- combo: "cl.HP xx qcf+LK, cl.HP xx dp+HK"
+  tags: [juggle, 0bar, hard, bnb]
+  comment: "Better followup from high launchers"

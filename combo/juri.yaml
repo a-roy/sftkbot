@@ -1,0 +1,42 @@
+# hitconfirm
+- combo: "cr.LK, st.LP, cr.MP xx qcb+HK"
+  damage: 206
+  tags: [hitconfirm, 0bar, low, easy, bnb]
+- combo: "cr.MK xx *LK*, cr.MK xx qcb+HK"
+  damage: 246
+  tags: [hitconfirm, 0bar, low, lkstore, easy, bnb]
+- combo: "cr.MK xx *LK*, cr.MK xx qcb+KK, cr.HP>jc j.HP, cl.HP xx qcb+LK"
+  damage: 339
+  tags: [hitconfirm, 1bar, low, lkstore, hard]
+# punish
+- combo: "cl.MP xx qcf+[K], f+MK, cr.MK xx qcb+LK"
+  damage: 278
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cr.HP xx qcb+HK, cr.HP>jc j.HP, cl.HP xx qcb+LK"
+  damage: 431
+  tags: [punish, 0bar, corner, medium, bnb]
+- combo: "cr.HP xx qcb+KK, cr.HP>jc j.HP, cl.HP xx qcb+LK"
+  damage: 371
+  tags: [punish, 1bar, hard, bnb]
+- combo: "cr.HP xx qcf+HK, qcb+KKK"
+  damage: 446
+  tags: [punish, 2bar, easy]
+- combo: "cr.HP xx qcb+HK, cr.HP xx qcf+MK+HK, qcb+KKK"
+  damage: 565
+  tags: [punish, 3bar, corner, medium]
+# yolo
+- combo: "j.qcb+K, walk forward st.MP xx qcb+LK"
+  damage: 180
+  tags: [yolo, 0bar, easy, bnb]
+# invulnerable
+- combo: "qcb+KK, cr.MK xx qcb+LK"
+  damage: 220
+  tags: [invulnerable, 1bar, easy]
+- combo: "qcb+KK, cr.HP>jc j.HP, cl.HP xx qcb+LK"
+  damage: 338
+  tags: [invulnerable, 1bar, hard, bnb]
+# juggle
+- combo: "cl.HP, cr.MK xx qcb+LK"
+  tags: [juggle, 0bar, easy]
+- combo: "cr.HP>jc j.HP, j.MK, cl.HP xx qcb+LK"
+  tags: [juggle, 0bar, easy, bnb]

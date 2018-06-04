@@ -1,0 +1,39 @@
+# hitconfirm
+- combo: "st.LP~cl.MK>MP, DES cr.MP(3) xx qcb+P, DES cr.HP(1) xx hcf+P>P(5),
+  DES cr.MP(3) xx hcf+P>P(5), DES cr.MP(1) xx hcf+P>K"
+  damage: 349
+  tags: [hitconfirm, 0bar, veryhard]
+- combo: "st.LP~cl.MK>MP, DES cr.MP(3) xx qcb+P, DES cr.HP(1) xx hcf+P>K"
+  damage: 329
+  tags: [hitconfirm, 0bar, hard, bnb]
+- combo: "cr.LP, cr.LP, st.MK>MP, DES cr.MP(3) xx qcb+P,
+  DES cr.HP xx hcf+P>P(5), DES cr.MP(3) xx hcf+P>P(5),
+  DES cr.MP(1) xx hcf+P>K"
+  damage: 350
+  tags: [hitconfirm, 0bar, veryhard]
+- combo: "cr.LP, cr.LP, st.MK>MP, DES cr.MP(3) xx qcb+P,
+  DES cr.HP(1) xx hcf+P>K"
+  damage: 341
+  tags: [hitconfirm, 0bar, hard, bnb]
+
+# low
+- combo: "cr.LK~cl.MK>MP, DES cr.MP(3) xx qcb+P, DES cr.HP(1) xx hcf+P>P(5),
+  DES cr.MP(3) xx hcf+P>P, DES cr.MP(1) xx hcf+P>K"
+  tags: [low, 0bar, hitconfirm, veryhard]
+- combo: "cr.LK~cl.MK>MP, DES cr.MP(3) xx qcb+P, DES cr.HP(1) xx hcf+P>K"
+  damage: 329
+  tags: [low, 0bar, hitconfirm, hard, bnb]
+- combo: "DES cr.MP(3) xx qcb+P, DES cr.HP(1) xx hcf+P>K"
+  tags: [low, 0bar, hard, bnb]
+
+# antiair
+- combo: "cl.HP xx CADC, cr.MP xx hcf+P>P(5), DES cr.MP(1) xx hcf+P>K"
+  damage: 314
+  tags: [antiair, 0bar, hard, bnb]
+- combo: "cl.HP xx hcf+P>P(5), DES cr.MP(3) xx hcf+P>P(5),
+  DES cr.MP(1) xx hcf+P>K"
+  tags: [juggle, 0bar, antiair, hard]
+
+# juggle
+- combo: "cl.MP, st.HP xx hcf+P>K"
+  tags: [juggle, 0bar, medium, bnb]

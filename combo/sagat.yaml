@@ -1,0 +1,17 @@
+# hitconfirm
+- combo: "cr.LK, cr.LP, cr.MP xx dp+HP"
+  damage: 213
+  tags: [hitconfirm, 0bar, medium, bnb]
+# punish
+- combo: "cl.HP, cr.MP xx dp+HP"
+  damage: 270
+  tags: [punish, 0bar, easy, bnb]
+- combo: "cl.HP, cr.MP xx dp+KK, j.HP, cl.HK(1) xx dp+HP"
+  damage: 358
+  tags: [punish, 1bar, midscreen, easy, bnb]
+# juggle
+- combo: "cr.MP, cr.MK, cr.MK xx dp+HP"
+  tags: [juggle, 0bar, medium, bnb]
+  comment: "Post-launch"
+- combo: "f+HK, dp+HP"
+  tags: [juggle, 0bar, easy, bnb]

@@ -1,0 +1,35 @@
+# hitconfirm
+- combo: "cr.MP, cr.MP, cr.MK xx hcf+LK"
+  tags: [hitconfirm, 0bar, close, medium, bnb]
+- combo: "cr.LK, cr.LP, dp+HP"
+  tags: [hitconfirm, 0bar, close, medium, bnb]
+- combo: "cr.LP cr.LP, cr.HP xx qcb+HK"
+  tags: [hitconfirm, 0bar, close, medium]
+- combo: "cr.MP, cr.HP xx qcb+HK"
+  tags: [hitconfirm, 0bar, close, medium, bnb]
+- combo: "cr.MP, cr.MP, cr.MK xx hcf+KK, j.HK, dp+HP"
+  tags: [hitconfirm, 1bar, close, medium, bnb]
+- combo: "cr.LP cr.LP, cr.HP xx hcf+KK, j.HP, cr.HP xx CADC, cr.HP xx qcb+HK"
+  tags: [hitconfirm, 1bar, close, hard]
+- combo: "cr.LP cr.LP, cr.HP xx qcb+LK, cr.HP xx hcf+HK, cr.HP xx qcb+MK"
+  tags: [hitconfirm, 0bar, close, corner, medium]
+# punish
+- combo: "f+HP, dp+HP"
+  tags: [punish, 0bar, easy]
+- combo: "f+HP, cr.HP xx dp+HP"
+  tags: [punish, 0bar, medium, bnb]
+- combo: "f+HP, cr.HP xx hcf+KK, j.HP, cr.HP xx CADC, cr.HP xx qcb+HK"
+  tags: [punish, 1bar, close, hard]
+- combo: "f+HP, cr.HP xx hcf+KK, j.HP, cr.HP xx CADC, cr.HP xx qcf+PPP"
+  tags: [punish, 3bar, close, hard]
+# juggle
+- combo: "cr.MP, cr.MK xx qcb+HK"
+  tags: [juggle, 0bar, easy]
+- combo: "cr.HP xx CADC, dp+HP"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cr.HP xx CADC, cr.HP xx qcb+HK"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cr.HP xx CADC, cr.MP, st.MP xx qcb+HK"
+  tags: [juggle, 0bar, hard]
+- combo: "cr.HP xx hcf+HK, cr.HP xx qcb+MK"
+  tags: [juggle, 0bar, medium, corner, bnb]

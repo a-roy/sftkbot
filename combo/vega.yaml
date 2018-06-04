@@ -1,0 +1,58 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, cr.MP~st.HP~HP_HK"
+  tags: [hitconfirm, 0bar, xrush, hard, bnb]
+- combo: "cr.LP, cr.LP, cr.MP xx [b],f+LP"
+  damage: 171 # claw off 136
+  tags: [hitconfirm, 0bar, hard]
+- combo: "cr.LP, cr.LP, cr.MP xx [db],f+MK, cr.MP xx [db],f+HK"
+  damage: 260 # claw off 226
+  tags: [hitconfirm, 1bar, standing, hard]
+- combo: "cl.MK, cr.MK, cr.MP xx [b],f+LP"
+  damage: 231 # claw off 216
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cl.MK, cr.MK, cr.MP xx [d],uf+KK>P (throw)"
+  damage: 293 # claw off 285
+  tags: [hitconfirm, 1bar, medium, bnb]
+- combo: "cl.HP, cl.HK(2)~HP+HK"
+  tags: [hitconfirm, 0bar, punish, xrush, easy, bnb]
+- combo: "cl.HP, cr.MP xx [db],f+MK, cr.MP xx [db],f+HK"
+  damage: 328 # claw off 301
+  tags: [hitconfirm, 0bar, punish, easy]
+- combo: "cl.HP, cr.MK, cr.MP xx [b],f+LP"
+  damage: 261
+  tags: [hitconfirm, 0bar, punish, claw, easy]
+- combo: "cl.HP, cr.MP xx [db],f+MK, df+HK, [db],f+HK"
+  damage: 349 # claw off 329
+  tags: [hitconfirm, 0bar, punish, medium, bnb]
+# safe
+- combo: "df+HK, cl.MK, cr.MK, cr.MP xx [db],f+HK"
+  damage: 312
+  comment: "Can be done w/o claw in the corner"
+  tags: [safe, 0bar, standing, claw, easy, bnb]
+- combo: "df+HK, [db],f+LK, cr.MP xx [db],f+HK"
+  damage: 292
+  tags: [safe, 0bar, standing, medium, bnb]
+- combo: "(near max range) df+HK, df+HK, cl.HP, [db],f+HK"
+  damage: 336
+  tags: [safe, 0bar, corner, standing, medium]
+# punish
+- combo: "cl.HP xx [b],f+HP, cr.MP xx [db],f+MK, df+HK, [db],f+HK"
+  damage: 393 # claw off 370
+  comment: "Requires pre-charge"
+  tags: [punish, 0bar, medium]
+- combo: "[b],f+HP, cr.MP xx [db],f+LK, cr.MP xx [db],f+HK, [db],f+KK"
+  damage: 440
+  tags: [punish, 1bar, standing, medium]
+# juggle
+- combo: "cl.MK, cr.MK, cr.MP xx [db],f+HK"
+  comment: "BnB post-launch, can be done w/o claw in the corner"
+  tags: [juggle, 0bar, claw, easy, bnb]
+- combo: "[db],f+LK, cr.MP xx [db],f+HK"
+  comment: "BnB post-launch w/o claw"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "df+HK, cr.MK, cr.MP xx [db],f+HK"
+  tags: [juggle, 0bar, medium]
+- combo: "cl.HP, cr.MP xx [db],f+HK"
+  tags: [juggle, 0bar, corner, easy]
+- combo: "nj.HK, df+HK, df+HK, [db],f+HK"
+  tags: [juggle, 0bar, medium]

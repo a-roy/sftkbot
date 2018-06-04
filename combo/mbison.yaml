@@ -1,0 +1,21 @@
+- combo: "cr.LK, cr.LK, st.MP xx [b],f+MK, cr.MP xx [b],f+HP"
+  damage: 263
+  tags: [hitconfirm, 0bar, low, medium, bnb]
+- combo: "cl.MP, st.MP xx [b],f+MK, cr.MP xx [b],f+HP"
+  damage: 302
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cl.HP, st.MP xx [b],f+MK, cr.MP xx [b],f+HP"
+  damage: 332
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cl.HP xx [b],f+HK, st.MP xx [b],f+LK(1), cr.MK xx [b],f+HP"
+  damage: 366
+  tags: [punish, 0bar, hard, bnb]
+- combo: "j.MP>MP, cl.MP, st.HP xx [b],f+HP"
+  damage: 335
+  tags: [air2air, 0bar, easy, bnb]
+- combo: "cl.MP, st.HP xx [b],f+HP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cl.MP, cl.MP, cl.MP, cl.HP xx [b],f+HP"
+  tags: [juggle, 0bar, corner, easy, bnb]
+- combo: "cl.HP xx [b],f+LK(1), cr.MK xx [b],f+HP"
+  tags: [juggle, 0bar, hard, bnb]

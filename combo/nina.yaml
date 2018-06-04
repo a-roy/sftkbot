@@ -1,0 +1,55 @@
+# hitconfirm
+- combo: "st.LP>MP xx qcb+MK, rdp+MP, cr.HP xx qcb+HK, LP+MK"
+  damage: 348
+  tags: [hitconfirm, 0bar, medium]
+- combo: "st.LP>MP xx qcb+MK, cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK/HP+HK"
+  damage: 360
+  tags: [hitconfirm, 0bar, hard]
+- combo: "st.MP, st.MP, cr.MP xx qcb+HK, rdp+MP, cr.HP xx qcb+HK, LP+MK"
+  damage: 396
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "st.MP, st.MP, cr.MP xx qcb+HK, cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK/HP+HK"
+  damage: 402
+  tags: [hitconfirm, 0bar, hard]
+- combo: "cr.LK~st.MK>LK>MP, rdp+MP, cr.HP xx qcb+HK, LP+MK"
+  damage: 297
+  tags: [hitconfirm, 0bar, low, medium, bnb]
+- combo: "cr.LK~st.MK>LK>MP, cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK/HP+HK"
+  damage: 303
+  tags: [hitconfirm, 0bar, low, hard]
+- combo: "df+LK>LK>MK xx qcb+HK, rdp+MP, cr.HP xx qcb+HK, LP+MK"
+  damage: 384
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "df+LK>LK>MK xx qcb+HK, cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK/HP+HK"
+  damage: 390
+  tags: [hitconfirm, 0bar, hard]
+# buffer
+- combo: "cr.MK xx qcb+HK, rdp+MP, cr.HP xx qcb+HK, LP+MK"
+  damage: 390
+  tags: [buffer, 0bar, low, medium, bnb]
+- combo: "cr.MK xx qcb+HK, cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK/HP+HK"
+  damage: 408
+  tags: [buffer, 0bar, low, hard]
+# punish
+- combo: "cr.HP xx qcb+HK, rdp+MP, cr.HP xx qcb+HK, LP+MK"
+  damage: 410
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cr.HP xx qcb+HK, cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK/HP+HK"
+  damage: 428
+  tags: [punish, 0bar, hard]
+# low
+- combo: "cr.MK, cr.LK xx qcb+LK, rdp+HP, cr.HP xx qcb+HK, LP+MK"
+  damage: 347
+  tags: [low, 0bar, counterhit, medium, bnb]
+# overhead
+- combo: "LP+MK, hcf+K>PP>PP>PP"
+  damage: 322
+  tags: [overhead, 0bar, counterhit, easy, bnb]
+# counterhit
+# juggle
+- combo: "st.MP, cr.HP xx qcb+HK, LP+MK/HP+HK"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "st.MP, cr.HP xx rdp+P, qcf+HP"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cr.HP xx rdp+HP, cr.HP xx rdp+HP, LP+MK"
+  tags: [juggle, 0bar, hard, bnb]

@@ -1,0 +1,63 @@
+# hitconfirm
+- combo: "cl.LP, cl.LP/st.LP, cr.MK xx d+PPP, AOP P, st.MP xx qcb+MP, qcb+LP,
+  qcf+LP/cr.HK"
+  damage: 310/305
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "st.MK, cl.MP(2) xx d+PPP, AOP P, st.MP xx qcb+MP, qcb+LP,
+  qcf+LP/cr.HK"
+  damage: 364/358
+  tags: [hitconfirm, 0bar, medium]
+- combo: "st.MK, cl.MP(2) xx d+PPP, AOP P, st.MK, cl.HP xx d+PPP, AOP cancel,
+  cr.MK xx qcb+MP, qcf+LP/cr.HK"
+  damage: 369/364
+  tags: [hitconfirm, 0bar, hard, bnb]
+- combo: "cr.MP, cr.HP xx d+PPP, AOP P, walk forward st.MP xx qcb+MP, qcb+LP,
+  qcf+LP/cr.HK"
+  damage: 384/378
+  tags: [hitconfirm, 0bar, medium, bnb]
+# safe
+- combo: "cl.HP xx d+PPP, AOP P, st.MP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
+  damage: 376/383
+  tags: [safe, 0bar, punish, easy]
+- combo: "cl.HP xx d+PPP, AOP P, st.MK, cl.HP xx d+PPP, AOP cancel,
+  cr.MK xx qcb+MP, qcf+LP/cr.HK"
+  damage: 393/387
+  tags: [safe, 0bar, punish, hard, bnb]
+- combo: "RDS K, RDS cancel, cr.MK xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
+  damage: 344/335
+  tags: [safe, 0bar, medium, bnb]
+- combo: "AOP qcb+HK, cr.HP xx d+PPP, AOP P, st.MP xx qcb+LP, qcb+LP,
+  qcf+LP/cr.HK"
+  damage: 444/438
+  tags: [safe, 0bar, medium]
+- combo: "RDS PP>P>d, AOP P, st.MP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
+  damage: 404/398
+  tags: [safe, 1bar, easy]
+- combo: "RDS PP>P>d, AOP P, st.MK, cl.HP xx d+PPP, AOP cancel, cr.MK xx qcb+MP,
+  qcb+LP, qcf+LP/cr.HK"
+  damage: 409/404
+  tags: [safe, 1bar, hard]
+- combo: "cr.MK xx qcf+HP>P>P, cr.LP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
+  damage: 377/372
+  tags: [safe, 0bar, low, corner, easy]
+- combo: "cr.MK xx qcf+HP, RDS LK, RDS cancel, cr.MK xx qcb+MP, qcb+LP,
+  qcf+LP/cr.HK"
+  damage: 392/386
+  tags: [safe, 0bar, low, corner, medium]
+# overhead
+- combo: "f+MK, cl.HP xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
+  damage: 344/335
+  tags: [overhead, 0bar, easy, bnb]
+# yolo
+- combo: "RDS qcf+K>K, RDS P"
+  damage: 260
+  tags: [yolo, 0bar, easy]
+- combo: "RDS qcf+K>K, RDS cancel, cr.MK xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
+  damage: 384/375
+  tags: [yolo, 0bar, medium, bnb]
+# juggle
+- combo: "cl.HP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cr.HP xx CADC, cl.HP xx d+PPP, AOP cancel, cr.MK xx qcb+MP,
+  qcf+LP/cr.HK"
+  tags: [juggle, 0bar, hard]

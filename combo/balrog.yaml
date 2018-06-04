@@ -1,0 +1,32 @@
+# hitconfirm
+- combo: "cr.LK, cr.LP, cr.LP xx [d],u+MP, cr.MP xx [b],f+[K] (delay), [b],f+HP"
+  damage: 266
+  tags: [hitconfirm, 0bar, low, medium, bnb]
+# punish
+- combo: "cr.MP xx [d],u+LP, cr.MP xx [b],f+[K] (delay), [b],f+HP"
+  damage: 329
+  tags: [punish, 0bar, medium, bnb]
+# overhead
+- combo: "[b],df+[P], cr.MP xx [d],u+MP, cr.MP xx [b],f+[K] (delay), [b],f+HP"
+  damage: 376
+  tags: [overhead, 0bar, medium, bnb]
+- combo: "[b],df+[P], cr.MP xx [d],u+MP, cr.MP, cl.HP, cl.MK xx [b],f+HP"
+  damage: 406
+  tags: [overhead, 0bar, corner, bnb]
+- combo: "[b],df+[P], cr.MP xx [b],df+KK, *PPP_KKK*, j.HK, cl.HP, [b],f+LP"
+  damage: 455
+  tags: [overhead, 1bar, bnb]
+- combo: "[b],df+[P], cr.MP xx [d],u+MP, cl.MK xx [b],f+LK, [b],f+KKK"
+  damage: 515
+  tags: [overhead, 2bar]
+# counterhit
+- combo: "st.HP, *KKK* (lv.1), *PPP* (lv.2), j.HK, cl.MK xx [b],f+HP"
+  damage: 474
+  tags: [counterhit, 0bar, hard, bnb]
+# juggle
+- combo: "cr.MP xx [b],f+[K] (delay), [b],f+HP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cl.HP, [b],f+LK, HP+HK"
+  tags: [juggle, 0bar, hard]
+- combo: "cr.MP, cl.HP, cl.MK xx [b],f+HP"
+  tags: [juggle, 0bar, corner, bnb]

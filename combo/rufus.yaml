@@ -1,0 +1,32 @@
+# hitconfirm
+- combo: "cr.LK cr.LK cr.LP~cr.HP~HP_HK"
+  tags: [low, 0bar, hitconfirm, easy]
+# safe
+- combo: "cl.LK>f+HK, st.LK>f+HK, df+MK, cl.HP xx CADC"
+  damage: 243
+  tags: [safe, 0bar, close, hard, bnb]
+# punish
+- combo: "cl.HP xx qcf+LK>LK"
+  damage: 244
+  tags: [punish, 0bar, easy, bnb]
+- combo: "st.HK, st.HK, cl.HP xx dp+HP"
+  damage: 308
+  tags: [punish, 0bar, hard]
+- combo: "cl.HP xx qcf+PP, st.HK, st.HK, cl.HP xx qcf+MK"
+  damage: 409
+  tags: [punish, 1bar, midscreen, hard, bnb]
+- combo: "cl.HP xx qcf+HP>f, cl.LK/st.LK>f+HK, f+HP xx qcf+HK>MK"
+  damage: 394
+  tags: [punish, 0bar, corner, easy, bnb]
+- combo: "cl.HP xx qcf+PP, f+HP, f+HP, f+HP xx qcf+MK>MK"
+  damage: 428
+  tags: [punish, 1bar, corner, medium, bnb]
+# juggle
+- combo: "cl.HP xx dp+HP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cl.HP xx CADC, cl.LK>f+HK, cr.HK"
+  tags: [juggle, 0bar, medium]
+- combo: "cl.LK>f+HK, f+HP xx qcf+HK>MK/LK"
+  tags: [juggle, 0bar, corner, easy, bnb]
+- combo: "f+HP, f+HP, f+HP xx qcf+HK>MK/LK"
+  tags: [juggle, 0bar, corner, medium]

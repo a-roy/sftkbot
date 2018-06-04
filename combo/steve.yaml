@@ -1,0 +1,36 @@
+- combo: "cr.LK, cr.LP, cr.LP xx dp+LP"
+  damage: 161
+  tags: [0bar, hitconfirm, low, easy, bnb]
+- combo: "cr.LK, cr.LP~cr.MP~cr.HP xx qcf+KK>MP, qcf+HK>MP, qcf+HK>MP,
+  f+MP>LP>b, FLK LP/MP/HP/HP+HK"
+  damage: 294
+  tags: [1bar, hitconfirm, low, medium, bnb]
+- combo: "cl.MP, cr.MP xx dp+P"
+  damage: 208
+  tags: [0bar, hitconfirm, easy, bnb]
+- combo: "cl.MP, cr.MP xx qcf+K>LP"
+  damage: 216
+  tags: [0bar, hitconfirm, easy, bnb]
+- combo: "cl.MP, cr.MP xx qcf+K>LP xx qcf+KK>MP, qcf+HK>MP, qcf+HK>MP,
+  f+MP>LP>b, FLK LP/MP/HP/HP+HK"
+  damage: 416
+  tags: [1bar, hitconfirm, medium, bnb]
+- combo: "cl.HP xx b+KKK, cr.HP xx qcf+K>MP, qcf+HK>MP, qcf+HK>MP, f+MP>LP>b,
+  FLK LP/MP/HP/HP+HK"
+  damage: 424
+  tags: [0bar, punish, medium, bnb]
+- combo: "df+MP, qcf+K>MP, f+MP>LP>b, FLK LP/MP/HP/HP+HK"
+  damage: 316
+  tags: [0bar, overhead, easy, bnb]
+- combo: "df+MP, qcf+K>MP, f+MP>LP>b, cr.MK xx dp+MP"
+  damage: 322
+  tags: [0bar, overhead, easy]
+- combo: "cl.HP xx qcf+LK>MP, f+MP>LP>b, FLK LP/MP/HP/HP+HK"
+  tags: [0bar, juggle, medium, bnb]
+- combo: "cl.HP xx qcf+LK>LP, cr.MK xx dp+P"
+  tags: [0bar, juggle, hard]
+- combo: "cl.HP xx b+KKK, crouch, cl.HP xx b+KKK, crouch, cl.HP xx b+KKK,
+  crouch, cl.HP xx dp+LP"
+  tags: [0bar, juggle, corner, hard, bnb]
+- combo: "qcf+K>MP, qcf+HK>MP, f+MP>LP>b, FLK LP/MP/HP/HP+HK"
+  tags: [0bar, juggle, medium]

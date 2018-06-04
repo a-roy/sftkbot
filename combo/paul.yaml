@@ -1,0 +1,160 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, cr.MK xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 330
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cr.LP, cr.LP, cr.HP xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 346
+  tags: [hitconfirm, 0bar, close, easy, bnb]
+- combo: "cl.MP, cr.MP xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 383
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cl.MP, cr.MP xx hcf+K, cr.LP xx dp+MP, cl.HP xx qcf+P"
+  damage: 384
+  tags: [hitconfirm, 0bar, hard]
+
+# buffer
+- combo: "cr.MK xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 373
+  tags: [buffer, 0bar, low, easy]
+- combo: "cr.MK xx hcf+K, cr.LP xx dp+MP, cl.HP xx qcf+P"
+  damage: 379
+  tags: [buffer, 0bar, low, hard]
+
+# safe
+- combo: "qcb+PP, st.HP xx dp+HP, st.HP xx qcf+P"
+  damage: 449
+  tags: [safe, 1bar, midscreen, easy]
+- combo: "qcb+PP, cr.HP xx dp+MP, cl.HP xx qcf+P"
+  damage: 439
+  tags: [safe, 1bar, corner, easy]
+
+# punish
+- combo: "cl.MP, cr.HP xx dp+HK, cr.HP xx dp+MP"
+  damage: 362
+  tags: [punish, 0bar, standing, easy]
+- combo: "cl.MP, cr.HP xx dp+HK, cl.HP xx dp+MP"
+  damage: 369
+  tags: [punish, 0bar, standing, close, hard]
+  comment: "EX charge setup"
+- combo: "cl.MP, cr.HP xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 403
+  tags: [punish, 0bar, easy, bnb]
+- combo: "cl.MP, cr.HP xx hcf+K, cr.LP xx dp+MP, cl.HP xx qcf+P"
+  damage: 404
+  tags: [punish, 0bar, hard]
+- combo: "st.HP/cl.HP xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 403
+  tags: [punish, 0bar, easy]
+- combo: "st.HP/cl.HP xx hcf+K, cr.LP xx dp+MP, cl.HP xx qcf+P"
+  damage: 409
+  tags: [punish, 0bar, hard]
+- combo: "st.HP/cl.HP xx hcf+K, dp+HK, cl.HK xx qcf+PPP"
+  damage: 550
+  tags: [punish, 2bar, easy]
+- combo: "cl.HP xx dp+HK, cr.HP xx dp+MP, qcf+PPP"
+  damage: 574
+  tags: [punish, 2bar, easy]
+- combo: "cl.HP xx dp+HK, cl.HP xx dp+MP, qcf+PPP"
+  damage: 582
+  tags: [punish, 2bar, hard]
+- combo: "hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 356
+  tags: [punish, 0bar, easy]
+- combo: "hcf+K, cr.LP xx dp+MP, cl.HP xx qcf+P"
+  damage: 359
+  tags: [punish, 0bar, hard]
+- combo: "qcf+PP, dp+HK, cl.HK xx qcf+P"
+  damage: 386
+  tags: [punish, 1bar, midscreen, easy]
+- combo: "qcf+PP, st.MP xx dp+MP, st.HP xx qcf+P"
+  damage: 419
+  tags: [punish, 1bar, midscreen, medium]
+
+# low
+- combo: "cr.LK~cl.MP~cl.HP~HP_HK"
+  tags: [low, 0bar, close, easy]
+- combo: "cr.LK~cl.MP~cl.HP xx hcf+KK, dp+HK, cl.HK xx qcf+P"
+  damage: 358
+  tags: [low, 1bar, close, easy, bnb]
+- combo: "cr.LK~cl.MP~cl.HP xx qcf+PP, st.MP xx dp+MP, st.HP xx qcf+P"
+  damage: 379
+  tags: [low, 1bar, midscreen, medium]
+- combo: "df+HK>P>P, cr.MP, cr.HP xx qcf+P"
+  damage: 330
+  tags: [low, 0bar, corner, easy, bnb]
+- combo: "df+HK>P>P xx qcf+PPP"
+  damage: 419
+  tags: [low, 2bar, corner, easy]
+- combo: "df+HK>P>P, dp+HK, cl.HK xx qcf+P"
+  damage: 383
+  tags: [low, 0bar, counterhit, corner, medium, bnb]
+- combo: "df+HK>P>P xx qcf+PPP"
+  damage: 431
+  tags: [low, 2bar, counterhit, easy]
+- combo: "cr.LK, cr.LP, cr.MK xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 337
+  tags: [low, 0bar, counterhit, hard]
+- combo: "cr.LK, cr.LP, cr.HP xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 353
+  tags: [low, 0bar, counterhit, close, hard]
+
+# overhead
+- combo: "f+HP xx qcf+PP, st.MP xx dp+MP, st.HP xx qcf+P"
+  damage: 423
+  tags: [overhead, 1bar, midscreen, easy]
+- combo: "f+MP, dash dp+HK, cl.HK xx qcf+P"
+  damage: 341
+  tags: [overhead, 0bar, counterhit, easy]
+- combo: "f+HP>df+HK>P>P, dp+HK, cl.HK xx qcf+P"
+  damage: 381
+  tags: [overhead, 0bar, counterhit, corner, medium, bnb]
+- combo: "f+HP>df+HK>P>P xx qcf+PPP"
+  damage: 441
+  tags: [overhead, 2bar, counterhit, easy]
+
+# counterhit
+- combo: "dp+P, dp+HK, cl.HK xx qcf+P"
+  damage: 429
+  tags: [counterhit, 0bar, easy]
+
+# yolo
+- combo: "qcb+MP, cr.MP xx hcf+K, dp+HK, cl.HK xx qcf+P"
+  damage: 413
+  tags: [yolo, 0bar, easy]
+- combo: "qcb+MP, cr.MP xx hcf+K, cr.LP xx dp+MP, cl.HP xx qcf+P"
+  damage: 414
+  tags: [yolo, 0bar, hard]
+
+# invulnerable
+- combo: "dp+MK, cr.HP xx dp+MP"
+  damage: 254
+  tags: [invulnerable, 0bar, standing, easy]
+  comment: "EX charge setup"
+- combo: "dp+MK, cl.HP xx qcf+P"
+  damage: 256
+  tags: [invulnerable, 0bar, standing, easy]
+- combo: "dp+MK, cr.HP xx dp+MP, qcf+PPP"
+  damage: 493
+  tags: [invulnerable, 2bar, standing, easy]
+
+# antiair
+- combo: "dp+LK, cr.HP xx dp+MP"
+  damage: 254
+  tags: [antiair, 0bar, easy, bnb]
+  comment: "EX charge setup"
+- combo: "dp+LK, cl.HP xx qcf+P"
+  damage: 256
+  tags: [antiair, 0bar, easy]
+- combo: "dp+LK, cr.HP xx dp+MP, qcf+PPP"
+  damage: 493
+  tags: [antiair, 2bar, easy]
+
+# juggle
+- combo: "dp+HK, cl.HK xx qcf+P"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cr.HP xx dp+MP, st.HP xx qcf+P"
+  comment: "Change first hit to `st.MP` if too far"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.HP xx dp+MP, st.HP xx qcf+P"
+  comment: "Does less damage if opponent is hit too high"
+  tags: [juggle, 0bar, medium]

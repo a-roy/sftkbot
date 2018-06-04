@@ -1,0 +1,75 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, st.MK xx qcb+MK>d+MK"
+  damage: 180
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cl.LP>f+MP>f+HP xx hcf+P"
+  damage: 274
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cl.LP>f+MP>f+HP xx qcb+KK, dash, hcb+P"
+  damage: 330
+  tags: [hitconfirm, 1bar, medium]
+- combo: "cl.LP>f+MP>f+HP xx dp+KK j.HP, cr.MP~st.HP>df+HK>f+HK>jc
+  j.LK>(delay)f+MK, hcb+P"
+  damage: 416
+  tags: [hitconfirm, 1bar, standing, medium]
+- combo: "st.LP~st.MK~cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
+  damage: 325
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cr.MK~st.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
+  damage: 368
+  tags: [buffer, 0bar, hitconfirm, low, medium, bnb]
+- combo: "st.MP, f+LK xx qcb+LK"
+  damage: 168
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "st.MP, f+LK xx qcb+KK, st.MK, st.MK xx dp+HK"
+  damage: 369
+  tags: [hitconfirm, 1bar, corner, easy]
+- combo: "st.MP, f+LK xx qcb+KK, walk forward cl.HK>jc j.HK, dp+HK"
+  damage: 374
+  tags: [hitconfirm, 1bar, corner, medium, bnb]
+# punish
+- combo: "st.MK xx dp+KK j.HP, cr.MP~st.HP>df+HK>f+HK>jc j.LK>(delay)f+MK,
+  hcb+P"
+  damage: 439
+  tags: [punish, 1bar, standing, medium]
+- combo: "st.MK xx dp+KK j.HP, walk forward st.MK xx dp+KK j.HP,
+  walk forward st.MK xx dp+KK j.HP, cr.MP~st.HP>df+HK>f+HK>jc j.LK>(delay)f+MK,
+  hcb+P"
+  damage: 520
+  tags: [punish, 3bar, standing, medium]
+- combo: "cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
+  damage: 386
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+PPP"
+  damage: 514
+  tags: [punish, 2bar, medium]
+# overhead
+- combo: "f+MK, cl.LP>f+MP>f+HP xx hcf+P"
+  damage: 287
+  tags: [overhead, 0bar, easy]
+- combo: "f+MK, cr.LP, st.MK xx hcf+P"
+  damage: 240
+  tags: [overhead, 0bar, easy]
+- combo: "f+MK, st.MK~cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
+  damage: 363
+  tags: [overhead, 0bar, medium, bnb]
+# counterhit
+- combo: "f+HK, cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
+  damage: 447
+  tags: [crouching, 0bar, counterhit, medium, bnb]
+# antiair
+- combo: "b+MP, st.MK xx dp+HK"
+  damage: 240
+  tags: [antiair, 0bar, easy, bnb]
+- combo: "b+MP(1) xx qcf+LK, cl.HK>jc j.HK, dp+HK"
+  damage: 285
+  tags: [antiair, 0bar, medium, bnb]
+- combo: "dp+LK (max height), b+MP, st.MK xx dp+HK"
+  damage: 253
+  tags: [antiair, 0bar, easy]
+- combo: "dp+LK (max height), cl.HK>jc j.HK, dp+HK"
+  damage: 295
+  tags: [antiair, 0bar, easy]
+# juggle
+- combo: "cl.HK>jc j.HK, dp+HK"
+  tags: [juggle, 0bar, easy, bnb]

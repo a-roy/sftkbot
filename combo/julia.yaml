@@ -1,0 +1,167 @@
+# hitconfirm 0bar
+- combo: "st.LP, cr.LP, cr.HP xx qcb+[P]~f,f+MP, cr.LK xx qcb+P"
+  damage: 267
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cr.LP, b+MP>LP xx qcb+P"
+  damage: 233
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cr.LP, b+MP>MP"
+  damage: 247/310 # SA: 373
+  comment: "Enders: `ender /^b+MP>MP`"
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "st.MP, b+MP>LP xx qcb+P"
+  damage: 263
+  tags: [hitconfirm, 0bar, easy]
+- combo: "st.MP, b+MP>MP"
+  damage: 277/340 # SA: 403/444
+  comment: "Enders: `ender /^b+MP>MP`"
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cr.LP, cr.LP, cr.HP xx qcb+[P]~f,f+MP, cr.MK xx qcb+P"
+  damage: 285
+  comment: "Inconsistent/hard on Kuma"
+  tags: [hitconfirm, 0bar, close, standing, hard]
+
+# hitconfirm 1bar
+- combo: "st.MP, b+MP>LP xx hcf+LP+HP, f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  damage: 385
+  comment: "Medium difficulty in the corner"
+  tags: [hitconfirm, 1bar, easy]
+
+# punish 0bar
+- combo: "f+MK>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP, cr.LK xx qcb+P"
+  damage: 324
+  tags: [punish, 0bar, medium]
+- combo: "f+MK>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP, b+MP>LP xx qcb+P"
+  damage: 343
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cr.HP xx qcb+[P]~f,f+MP, b+MP>MP, cr.MP, cr.HP xx qcb+P"
+  damage: 380
+  tags: [punish, 0bar, corner, medium]
+- combo: "f+MP>LP, f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  damage: 373
+  comment: "hcf+K strength controls side switch"
+  tags: [punish, 0bar, standing, medium, bnb]
+
+# punish 1bar
+- combo: "cl.HK, cr.HP xx qcb+[PP]~f,f+MP, f+MK>MP_HP>f+P xx hcf+LK,
+  cr.HP xx qcb+[P]~f,f+MP, b+MP>LP xx qcb+P"
+  damage: 422
+  tags: [punish, 1bar, hard]
+- combo: "cl.HK, cr.HP xx qcb+[PP]~f,f+MP, f+MK>MP_HP>f+P xx hcf+LK,
+  cr.HP xx qcb+[P]~f,f+MP, b+MP>MP, cr.MP, st.LK, cr.HP xx qcb+P"
+  damage: 441
+  tags: [punish, 1bar, corner, hard]
+- combo: "cl.HK, cr.HP xx hcf+LP+HP, f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  damage: 455
+  tags: [punish, 1bar, medium]
+
+# punish 2bar
+- combo: "f+MP>LP, f+MK>MP_HP>f+P xx qcb+PPP"
+  damage: 447
+  tags: [punish, 2bar, easy]
+- combo: "cl.HK, cr.HP xx qcb+[P]~f,f+MP, qcb+PPP"
+  damage: 465
+  tags: [punish, 2bar, medium]
+
+# low 0bar
+- combo: "cr.MP, b+MP>LP xx qcb+P"
+  damage: 263
+  tags: [low, 0bar, medium]
+- combo: "cr.MP, b+MP>MP"
+  damage: 277/340 # SA: 403/444
+  tags: [low, 0bar, medium, bnb]
+
+# low 1bar
+- combo: "cr.LK~cr.MK~cr.HP xx qcb+[PP]~f,f+MP, f+MK>MP_HP>f+P xx hcf+LK,
+  cr.HP xx qcb+[P]~f,f+MP, b+MP>LP xx qcb+P"
+  damage: 320
+  tags: [low, 1bar, hard, bnb]
+- combo: "cr.LK~cr.MK~cr.HP xx qcb+[PP]~f,f+MP, f+MK>MP_HP>f+P xx hcf+LK,
+  cr.HP xx qcb+[P]~f,f+MP, b+MP>MP, cr.MP, st.LK, cr.HP xx qcb+P"
+  damage: 339
+  tags: [low, 1bar, corner, hard]
+- combo: "cr.LK~cr.MK~cr.HP xx hcf+LP+HP, f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  damage: 349
+  comment: "Medium difficulty in the corner"
+  tags: [low, 1bar, easy]
+- combo: "cr.MK~cr.HP xx qcb+[PP]~f,f+MP, f+MK>MP_HP>f+P xx hcf+LK,
+  cr.HP xx qcb+[P]~f,f+MP, b+MP>LP xx qcb+P"
+  damage: 365
+  tags: [buffer, 1bar, low, medium]
+- combo: "cr.MK~cr.HP xx qcb+[PP]~f,f+MP, f+MK>MP_HP>f+P xx hcf+LK,
+  cr.HP xx qcb+[P]~f,f+MP, b+MP>MP, cr.MP, st.LK, cr.HP xx qcb+P"
+  damage: 384
+  tags: [buffer, 1bar, low, corner, hard]
+- combo: "cr.MK~cr.HP xx hcf+LP+HP, f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  damage: 398
+  comment: "Medium difficulty in the corner"
+  tags: [low, 1bar, easy]
+
+# overhead
+- combo: "hcf+HP, delay f+HP, f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  damage: 413
+  comment: "hcf+K strength controls side switch"
+  tags: [overhead, 0bar, easy, bnb]
+- combo: "hcf+HP, f+MP>LP, f+HP, st.MP, cr.HP xx qcb+P"
+  damage: 421
+  tags: [overhead, 0bar, corner, medium]
+- combo: "hcf+HP, delay f+HP, f+MP>MK xx hcf+K, cr.HP xx qcb+PPP"
+  damage: 532
+  comment: "hcf+K strength controls side switch"
+  tags: [overhead, 2bar, easy]
+
+# counterhit
+- combo: "f+MK, walk forward cr.MK xx qcb+P"
+  damage: 255
+  tags: [counterhit, 0bar, easy]
+- combo: "f+MK, (f+MK)>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP,
+  b+MP>LP xx qcb+P"
+  damage: 358/362
+  tags: [counterhit, 0bar, standing, medium]
+- combo: "st.MP, f+MK>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP,
+  cr.MP xx qcb+P"
+  damage: 363
+  tags: [counterhit, 0bar, medium, bnb]
+- combo: "st.MP, f+MK>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP,
+  b+MP>MP, cr.MP, st.LK, cr.HP xx qcb+P"
+  damage: 374
+  tags: [counterhit, 0bar, corner, medium]
+- combo: "f,f+MP, f+MK>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP,
+  cr.MP xx qcb+P"
+  damage: 363
+  tags: [counterhit, 0bar, medium]
+- combo: "f,f+MP, f+MK>MP_HP>f+P xx hcf+LK, cr.HP xx qcb+[P]~f,f+MP,
+  b+MP>MP, cr.MP, st.LK, cr.HP xx qcb+P"
+  damage: 374
+  tags: [counterhit, 0bar, corner, medium]
+
+# antiair
+- combo: "cr.HP xx hcf+LK, cr.HP xx qcb+P"
+  damage: 322
+  tags: [counterhit, antiair, easy]
+
+# juggle
+- combo: "cr.LP, f+HP, cr.HP xx qcb+P"
+  tags: [juggle, 0bar, easy]
+- combo: "f+HP, cr.MP, cr.HP xx qcb+P"
+  tags: [juggle, 0bar, easy]
+- combo: "f+MP>MK xx hcf+K, cr.HP xx qcb+P"
+  comment: "hcf+K strength controls side switch"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "j.HK/j.HP, cl.HK, cr.HP xx qcb+P"
+  tags: [juggle, 0bar, medium]
+
+# ender
+- combo: "b+MP>MP, cr.LK xx qcb+P"
+  comment: "Starters: `/b+MP>MP$`"
+  tags: [ender, 0bar, easy, bnb]
+- combo: "b+MP>MP, cr.LP, f+HP, cr.HP xx qcb+P"
+  comment: "Starters: `/b+MP>MP$`\n
+  Need to be relatively deep in the corner; does not work after `f,f+MP`"
+  tags: [ender, 0bar, corner, medium, bnb]
+- combo: "b+MP>MP, qcb+PPP"
+  comment: "Starters: `/b+MP>MP$`"
+  tags: [ender, 2bar, easy]
+- combo: "b+MP>MP, cr.HP xx qcb+PPP"
+  comment: "Starters: `/b+MP>MP$`"
+  tags: [ender, 2bar, corner, medium]

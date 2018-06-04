@@ -1,0 +1,203 @@
+# hitconfirm cr.LK
+- combo: "cr.LK, cr.MP, cr.MP, cr.MP xx qcb+K>qcb+K>qcb+K"
+  damage: 223
+  tags: [hitconfirm, nostance, 0bar, low, medium, bnb]
+- combo: "cr.LK, cr.MP, cr.MP xx qcf+KK, BT HP>MP>LK>LP"
+  damage: 284
+  tags: [hitconfirm, nostance, 1bar, low, medium]
+- combo: "cr.LK, cr.MP, cr.MP xx qcf+KK, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 334
+  tags: [hitconfirm, nostance, 1bar, low, medium, bnb]
+- combo: "cr.LK, cr.MP, cr.MP xx qcf+KK, cr.HP xx qcf+K, BT MK>HK, BT MK>HK,
+  cr.MP xx dp+K>K"
+  damage: 354
+  tags: [hitconfirm, nostance, 1bar, low, standing, hard]
+
+# hitconfirm cr.MP
+- combo: "cr.MP, f+MP>LP>MP>d_u, PAN LP>MP xx qcb+K>qcb+K>qcb+K"
+  damage: 218
+  tags: [hitconfirm, nostance, 0bar, crouching, close, hard]
+- combo: "f+MP>LP>MP>d_u, PAN LP>MP xx qcb+K>qcb+K>qcb+K"
+  damage: 197
+  tags: [hitconfirm, nostance, 0bar, crouching, hard]
+- combo: "cr.MP, cr.MP xx qcf+KK, BT HP>MP>LK>LP"
+  damage: 294
+  tags: [hitconfirm, nostance, 1bar, medium]
+- combo: "cr.MP, cr.MP xx qcf+KK, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 369
+  tags: [hitconfirm, nostance, 1bar, medium, bnb]
+- combo: "cr.MP, cr.MP xx qcf+KK, cr.HP xx qcf+K, BT MK>HK, BT MK>HK,
+  cr.MP xx dp+K>K"
+  damage: 387
+  tags: [hitconfirm, nostance, 1bar, standing, hard]
+
+# hitconfirm st.MK
+- combo: "st.MK xx f+KKK, cr.MP xx dp+K>K"
+  damage: 234
+  tags: [hitconfirm, nostance, 0bar, medium]
+- combo: "st.MK xx f+KKK, cr.MP, cr.MP, cr.MP xx qcb+K>qcb+K>qcb+K"
+  damage: 253
+  tags: [hitconfirm, nostance, 0bar, medium]
+- combo: "st.MK xx f+KKK, DRU MK xx f+PP, PLD KK"
+  damage: 263
+  tags: [hitconfirm, nostance, 0bar, medium]
+
+# hitconfirm panther (PAN)
+- combo: "PAN LK, PAN LK, PAN LP>MP xx qcb+K>qcb+K>qcb+K"
+  damage: 194
+  tags: [hitconfirm, panther, 0bar, low, hard]
+- combo: "PAN HK, walk forward, PAN LK, PAN LK"
+  damage: 144
+  tags: [hitconfirm, panther, 0bar, hard]
+
+# hitconfirm crane (CRA)
+- combo: "CRA LK>MK>MP>LK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 325
+  tags: [hitconfirm, crane, 0bar, medium, bnb]
+
+# hitconfirm backturn (BT)
+- combo: "BT MP, cr.MP xx qcf+KK, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 379
+  tags: [hitconfirm, backturn, 1bar, hard]
+
+# safe
+- combo: "qcf+HP, qcf+MP, j.HK, cr.HP xx dp+K>K"
+  damage: 394
+  tags: [safe, nostance, 0bar, midscreen, medium]
+
+# safe qcf+PP
+- combo: "qcf+PP, cr.HP xx qcf+MK, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 444
+  tags: [safe, nostance, 1bar, medium]
+- combo: "qcf+PP, cr.HP xx qcf+MP, qcf+MP, j.HK, cr.HP xx dp+K>K"
+  damage: 453
+  tags: [safe, nostance, 1bar, midscreen, hard]
+- combo: "qcf+PP, cr.HP xx qcf+MK, crouch, st.MP~cr.HP xx qcf+PPP"
+  damage: 526
+  tags: [safe, nostance, 3bar, hard]
+
+# safe dragon (DGN)
+- combo: "DGN LP xx f+PP, TGR PP, cr.MP, cr.HP xx dp+K>K"
+  damage: 336
+  tags: [safe, dragon, 0bar, corner, easy]
+- combo: "DGN MP xx f+PP, TGR PP, cr.MP, cr.HP xx dp+K>K"
+  damage: 366
+  tags: [safe, dragon, 0bar, corner, easy, bnb]
+- combo: "DGN HP>f, TGR PP, cr.HP xx dp+K>K"
+  damage: 358
+  tags: [safe, dragon, 0bar, corner, easy]
+
+# safe tiger (TGR)
+- combo: "TGR PP, cr.HP xx qcf+K, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 444
+  tags: [safe, tiger, 0bar, medium]
+- combo: "TGR PP, cr.HP xx qcf+MP, qcf+MP, j.HK, cr.HP xx dp+K>K"
+  damage: 453
+  tags: [safe, tiger, 0bar, midscreen, hard]
+- combo: "TGR PP, cr.HP xx qcf+K, crouch, st.MP xx qcf+KK, cr.HP xx qcf+K,
+  BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 471
+  tags: [safe, tiger, 1bar, hard, standing]
+- combo: "TGR PP, cr.HP xx qcf+K, crouch, st.MP~cr.HP xx qcf+PPP"
+  damage: 526
+  tags: [safe, tiger, 2bar, hard]
+
+# punish
+- combo: "cr.HP xx qcf+MP, qcf+MP, j.HK, cr.HP xx dp+K>K"
+  damage: 410
+  tags: [punish, nostance, 0bar, midscreen, hard]
+- combo: "cr.HP xx qcf+K, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 411
+  tags: [punish, nostance, 0bar, medium, bnb]
+- combo: "cr.HP xx qcf+K, crouch, st.MP xx qcf+KK, cr.HP xx qcf+K, BT MK>HK,
+  BT MK>HK, cr.MP xx dp+K>K"
+  damage: 437
+  tags: [punish, nostance, 1bar, standing, hard]
+- combo: "cr.HP xx qcf+K, crouch, st.MP~cr.HP xx qcf+PPP"
+  damage: 477
+  tags: [punish, nostance, 2bar, hard]
+
+# low
+- combo: "cr.MK xx qcf+LP, cr.MP, cr.MP, cr.HP xx dp+K>K"
+  damage: 326
+  tags: [low, nostance, 0bar, corner, medium]
+
+# low panther (PAN)
+- combo: "PAN LK, PAN LK, PAN LK, PAN LK, PAN LK, PAN LK, PAN LK, PAN LK"
+  damage: 159
+  tags: [low, panther, 0bar, hard]
+- combo: "PAN LK, PAN LP>MP xx qcb+K>qcb+K>qcb+K"
+  damage: 190
+  tags: [low, panther, 0bar, easy]
+- combo: "PAN LK, PAN LP>MP xx qcf+KK, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 322
+  tags: [low, panther, 1bar, medium]
+- combo: "PAN LK, PAN LP>MP xx qcf+KK, cr.HP xx qcf+K, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 342
+  tags: [low, panther, 1bar, standing, hard]
+
+# low drunken (DRU)
+- combo: "DRU LK>MP>HK, cr.MP xx qcb+K>qcb+K>qcb+K"
+  damage: 265
+  tags: [low, drunken, 0bar, medium]
+- combo: "DRU LK>MP>HK, cr.MP, cr.HP xx dp+K>K"
+  damage: 318
+  tags: [low, drunken, 0bar, corner, medium]
+
+# overhead
+- combo: "DRU f+PP, PLD KK"
+  damage: 190
+  tags: [overhead, drunken, 0bar, easy]
+- combo: "DRU MP>MP xx f+PP, PLD KK"
+  damage: 243
+  tags: [overhead, drunken, 0bar, easy, bnb]
+
+# yolo
+- combo: "CRA uf+K, cr.HP xx CADC, cr.MP, cr.HP xx dp+K>K"
+  damage: 359
+  tags: [yolo, crane, 0bar, hard, bnb]
+- combo: "DRU b+PP, PLD KK"
+  damage: 170
+  tags: [yolo, drunken, 0bar, easy]
+
+# counterhit
+- combo: "(f+MP>LP)>MP>d_u, PAN LP>MP xx qcf+KK, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 317
+  tags: [counterhit, nostance, 1bar, hard]
+- combo: "(f+MP>LP)>MP>d_u, PAN LP>MP xx qcf+PPP"
+  damage: 364
+  tags: [counterhit, nostance, 2bar, hard]
+
+# counterhit snake (SNA)
+- combo: "SNA HP, cr.HP xx qcf+K, BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 456
+  tags: [counterhit, snake, 0bar, medium]
+- combo: "SNA HP, cr.HP xx qcf+MP, qcf+MP, j.HK, cr.HP xx dp+K>K"
+  damage: 465
+  tags: [counterhit, snake, 0bar, midscreen, hard]
+- combo: "SNA HP, cr.HP xx qcf+K, crouch, st.MP xx qcf+KK, cr.HP xx qcf+K,
+  BT MK>HK, BT MK>HK, cr.MP xx dp+K>K"
+  damage: 483
+  tags: [counterhit, snake, 1bar, hard, standing]
+- combo: "SNA HP, cr.HP xx qcf+K, crouch, st.MP~cr.HP xx qcf+PPP"
+  damage: 538
+  tags: [counterhit, snake, 2bar, hard]
+
+# counterhit tiger (TGR)
+- combo: "TGR P, cr.HP xx dp+K>K"
+  damage: 324
+  tags: [counterhit, tiger, 0bar, armor, midscreen, easy]
+
+# counterhit drunken (DRU)
+- combo: "DRU PP>f+P, qcf+HK, cr.HP xx dp+K>K"
+  damage: 335
+  tags: [counterhit, drunken, 0bar, midscreen, medium]
+- combo: "DRU PP>f+P, cr.HP xx CADC, cr.MP, cr.HP xx dp+K>K"
+  damage: 346
+  tags: [counterhit, drunken, 0bar, midscreen, medium]
+
+# juggle
+- combo: "st.MK xx f+KKK, cr.MP, cr.HP xx dp+HK>K"
+  tags: [juggle, nostance, 0bar, medium, bnb]
+- combo: "cr.HP xx CADC, cr.MP, cr.HP xx dp+HK>K"
+  tags: [juggle, nostance, 0bar, medium, bnb]

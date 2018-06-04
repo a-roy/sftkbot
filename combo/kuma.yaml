@@ -1,0 +1,37 @@
+# hitconfirm
+- combo: "st.LP>b+MP xx hcf+LP>LP"
+  damage: 194
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "f+LP>MP>HP xx hcf+HP>MP, st.HK xx hcf+HP>MP"
+  damage: 363
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "f+LP>MP>HP xx hcf+HP>MP, st.HK xx hcb+HK"
+  damage: 369
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "f+LP>MP>HP xx hcf+HP>MP, st.HK xx hcf+LP, st.MK~cr.HK"
+  damage: 373
+  tags: [hitconfirm, 0bar, corner, easy, bnb]
+# punish
+- combo: "st.HP xx hcf+HP>MP, st.HK xx hcf+HP>MP"
+  damage: 393
+  tags: [punish, 0bar, easy]
+- combo: "st.HP xx hcf+HP>MP, st.HK xx hcf+HP>LP"
+  damage: 403
+  tags: [punish, 0bar, easy, bnb]
+- combo: "st.HP>MP~st.HP xx hcf+PP>MP, st.HK xx hcb+HK"
+  damage: 442
+  tags: [punish, 1bar, easy, bnb]
+# invulnerable
+- combo: "hcf+PP>MP, st.HK xx hcf+HP>MP"
+  damage: 330
+  tags: [invulnerable, 1bar, easy]
+- combo: "hcf+PP>MP, st.HK xx hcf+HP>LP"
+  damage: 342
+  tags: [invulnerable, 1bar, easy, bnb]
+# juggle
+- combo: "st.HP xx hcf+HP>MP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "st.HP xx hcf+HP>LP"
+  tags: [juggle, 0bar, easy]
+- combo: "st.HP xx hcf+LP, st.MK~cr.HK"
+  tags: [juggle, 0bar, corner, easy, bnb]

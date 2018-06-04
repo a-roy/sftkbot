@@ -1,0 +1,23 @@
+# hitconfirm
+- combo: "cr.LK xx dp+LP, cr.MK xx dp+LP, dp+HP"
+  damage: 360
+  tags: [hitconfirm, 0bar, low, easy, bnb]
+- combo: "cr.MP xx dp+LP, dp+LP, cl.HP xx dp+HP"
+  damage: 395
+  tags: [hitconfirm, 0bar, low, easy, bnb]
+- combo: "cr.LK~cl.MP>MP~cl.HP~st.HK~HP_HK"
+  tags: [hitconfirm, 0bar, low, easy, bnb]
+- combo: "cr.LP~st.MP~st.HK~HP_HK"
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cr.LP~cr.MP xx hcf+KK, cr.MK xx dp+LP, dp+HP"
+  damage: 367
+  tags: [hitconfirm, 1bar, easy, bnb]
+
+# punish
+- combo: "cr.MK xx dp+LP, cr.MK xx qcf+PP, qcf+PPP"
+  damage: 634
+  tags: [punish, 3bar, corner, easy]
+
+# juggle
+- combo: "cr.MK xx dp+LP, dp+HP"
+  tags: [juggle, 0bar, easy, bnb]

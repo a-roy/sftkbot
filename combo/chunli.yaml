@@ -1,0 +1,33 @@
+# hitconfirm
+- combo: "cr.LK cr.LK, b+MK>MK>jc j.HK, cl.HP xx CADC, cl.HP xx hcb+LK"
+  damage: 297
+  tags: [low, 0bar, hitconfirm, medium, bnb]
+- combo: "st.LP~cr.MP~cl.HP xx hcf+PP, st.MP~st.HP~HP_HK"
+  tags: [hitconfirm, 1bar, easy, bnb]
+
+# punish
+- combo: "cl.HP xx hcf+HK>K*, cr.LK, b+MK>MK>jc j.HK, cl.HP xx CADC,
+  cl.HP xx hcb+LK"
+  damage: 402
+  tags: [punish, 0bar, close, hard, bnb]
+
+# overhead
+- combo: "hcb+LK, st.LP, b+MK>MK>jc, j.HK, cl.HP xx CADC, cl.HP xx hcb+LK"
+  damage: 337
+  tags: [overhead, 0bar, medium, bnb]
+
+# invulnerable
+- combo: "[d],u+KK, b+MK>MK>jc, cl.HP xx hcb+LK"
+  damage: 305
+  tags: [invulnerable, 1bar, corner, easy, bnb]
+
+# antiair
+- combo: "df+LK, b+MK>MK>jc, cl.HP xx hcb+LK"
+  damage: 235
+  tags: [antiair, 0bar, easy, bnb]
+
+# juggle
+- combo: "cl.HP xx CADC, cl.HP xx hcb+LK"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.HK>jc j.d+MK j.HK, cl.HK xx hcf+K(1)"
+  tags: [juggle, 0bar, easy, bnb]

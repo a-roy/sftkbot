@@ -1,0 +1,88 @@
+# hitconfirm
+- combo: "st.LP>MP>LP xx dp+MP>PP, cr.LP~cl.MP, cr.HK"
+  damage: 273
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "st.LP>MP>LP xx dp+MP>PP, cr.MK xx qcb+MK"
+  damage: 304
+  tags: [hitconfirm, 0bar, midscreen, medium]
+- combo: "st.LP>MP>LP xx dp+MP, cr.LP, f+MK>MP>LP xx f,f+MP"
+  damage: 298
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "st.LP>MP>LP xx hcf+PP, dp+MP, f+MK>MP>LP>MP, f,f+MP"
+  damage: 372
+  tags: [hitconfirm, 1bar, medium]
+- combo: "f+MK>MP>LP xx f,f+MP"
+  damage: 252
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "f+MK>MP>LP xx f,f+PP, f+MK>MP>LP>MP, f,f+MP"
+  damage: 390
+  tags: [hitconfirm, 1bar, midscreen, easy, bnb]
+
+# punish
+- combo: "st.HP>LP, cl.MP, cr.HP xx dp+MP>PP, cr.LP~cl.MP, cr.HK"
+  damage: 379
+  tags: [punish, 0bar, medium, bnb]
+- combo: "st.HP>LP, cl.MP, cr.HP xx dp+MP>PP, cr.MK xx qcb+MK"
+  damage: 405
+  tags: [punish, 0bar, medium]
+- combo: "cl.HP xx hcf+PP, dp+MP, f+MK>MP>LP>MP, f,f+MP"
+  damage: 486
+  tags: [punish, 1bar, midscreen, medium]
+- combo: "f,f+PP, f+MK>MP>LP>MP, f,f+MP"
+  damage: 378
+  tags: [punish, 1bar, midscreen, easy]
+
+# low
+- combo: "cr.LK~cl.MP~cl.HP~HP_HK"
+  tags: [low, 0bar, xrush, easy]
+- combo: "cr.LK~st.MP~st.HP~HP_HK"
+  tags: [low, 0bar, xrush, easy]
+- combo: "cr.LK~cl.MP xx hcf+PP, dp+MP, f+MK>MP>LP>MP, f,f+MP"
+  damage: 392
+  tags: [low, 1bar, midscreen, medium, bnb]
+
+# overhead
+- combo: "f+MP, cr.LP xx dp+MP>PP, cr.LP~cl.MP, cr.HK"
+  damage: 280
+  tags: [overhead, 0bar, medium, bnb]
+- combo: "f+MP, cr.LP xx dp+MP>PP, cr.MK xx qcb+MK"
+  damage: 316
+  tags: [overhead, 0bar, medium]
+- combo: "f+MP, cr.LP xx dp+MP, cr.LP, f+MK>MP>LP xx f,f+MP"
+  damage: 317
+  tags: [overhead, 0bar, medium, bnb]
+- combo: "f+MP, cr.LP xx dp+MP>PP, cr.MK xx qcb+KKK"
+  damage: 449
+  tags: [overhead, 2bar, medium]
+
+# armor
+- combo: "qcb+PP>qcb+P, f+MK>MP>LP>MP, f,f+MP"
+  damage: 354
+  tags: [armor, 1bar, easy, bnb]
+- combo: "qcb+PP, cr.MP xx dp+MP>PP, cr.MK xx qcb+MK"
+  damage: 356
+  tags: [armor, 1bar, medium]
+- combo: "qcb+PP, cr.MP xx dp+MP, cr.LP, f+MK>MP>LP xx f,f+MP"
+  damage: 357
+  tags: [armor, 1bar, medium]
+- combo: "qcb+PP>qcb+P>qcb+P, walk forward cl.MP, cr.HP xx f,f+MP"
+  damage: 376
+  tags: [armor, 1bar, midscreen, medium]
+- combo: "qcb+PP>qcb+P>qcb+P, walk forward cl.MP, cr.HP xx qcb+MK"
+  damage: 391
+  tags: [armor, 1bar, midscreen, medium]
+- combo: "qcb+PP, cr.MP xx dp+MP, cr.LP, cr.MP, cr.HP xx f,f+MP"
+  damage: 360
+  tags: [armor, 1bar, corner, hard]
+
+# juggle
+- combo: "cr.LP, f+MK>MP>LP xx f,f+MP"
+  tags: [juggle, 0bar, medium]
+- combo: "f+MK>MP>LP>MP, f,f+MP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cl.MP, walk forward cl.MP, cr.HP xx qcb+MK"
+  tags: [juggle, 0bar, hard]
+- combo: "dp+MP, f+MK>MP>LP>MP, f,f+MP"
+  tags: [juggle, 0bar, easy]
+- combo: "dp+MP, cr.HP xx dp+LP, cr.HP xx f,f+MP"
+  tags: [juggle, 0bar, corner, hard]

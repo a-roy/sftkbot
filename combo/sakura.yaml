@@ -1,0 +1,68 @@
+# hitconfirm
+- combo: "cl.LP st.LP st.LP, cr.MK xx dp+HP"
+  damage: 204
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cr.LK, cr.LP, cr.MK xx dp+HP"
+  damage: 199
+  tags: [low, 0bar, hitconfirm, medium, bnb]
+- combo: "cr.LP, cl.MP, cr.MK xx dp+HP"
+  damage: 229
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cr.LP, cl.HK, walk forward, st.HP xx dp+HP"
+  damage: 269
+  tags: [hitconfirm, 0bar, medium]
+- combo: "cr.LK, cr.LP, cr.MK xx dp+LP"
+  damage: 287/293/286
+  comment: "Enders: `ender /^dp+LP`"
+  tags: [low, 0bar, hitconfirm, corner, medium]
+- combo: "cr.LP, cl.MP, cr.MK xx dp+LP"
+  comment: "Enders: `ender /^dp+LP`"
+  tags: [hitconfirm, 0bar, corner, medium]
+- combo: "cr.LP, cl.HK"
+  damage: 324
+  comment: "Enders: `ender /^cl.HK`"
+  tags: [hitconfirm, 0bar, corner, medium]
+# punish
+- combo: "cl.HP xx qcb+LK, cl.HP xx qcb+LK, cr.LK xx dp+HP"
+  damage: 313
+  tags: [punish, 0bar, midscreen, medium, bnb]
+- combo: "cl.HP xx qcb+LK, cl.HP xx dp+LP, cl.HP xx qcb+MK, cr.HP xx dp+HP"
+  damage: 387
+  tags: [punish, 0bar, corner, medium, bnb]
+- combo: "cl.HP xx qcb+LK, cl.HP xx qcb+KK, j.HK, cl.HP xx dp+HK>P,
+  cl.HP xx dp+HP"
+  damage: 433
+  tags: [punish, 1bar, medium, bnb]
+- combo: "cl.HP xx qcb+LK, cl.HP xx qcb+KK, j.HK, cl.HP xx CADC, cr.HP xx dp+HP"
+  damage: 439
+  tags: [punish, 1bar, hard]
+# invulnerable
+- combo: "dp+PP, dp+HP"
+  damage: 230
+  tags: [invulnerable, 1bar, easy]
+- combo: "dp+PP, walk forward, cr.HK"
+  damage: 190
+  tags: [invulnerable, 1bar, medium]
+# yolo
+- combo: "j.qcb+K, cl.HP xx dp+HK>P, cl.HP xx dp+HP"
+  comment: "Enders: `juggle`"
+  damage: 296/309
+  tags: [yolo, 0bar, medium]
+# juggle
+- combo: "cl.HP xx dp+HK>P, cl.HP xx dp+HP"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.HP xx dp+HK>P>(delay) P, dp+LP, dp+MP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cl.MP, cl.HP xx qcb+LK, cr.HP xx dp+HP"
+  tags: [juggle, 0bar, corner, easy, bnb]
+- combo: "cl.HK, cr.HP xx dp+HP"
+  tags: [juggle, 0bar, corner, medium]
+# ender
+- combo: "dp+LP, cl.MP, cl.HP xx qcb+LK, cr.HP xx dp+HP"
+  tags: [ender, 0bar, corner, easy, bnb]
+- combo: "dp+LP, cl.HP xx qcb+MK, cr.HP xx dp+HP"
+  tags: [ender, 0bar, corner, medium, bnb]
+- combo: "dp+LP, walk forward, cl.HK, cr.HP xx dp+HP"
+  tags: [ender, 0bar, corner, medium]
+- combo: "cl.HK, st.HP xx qcb+LK, cr.HP xx dp+HP"
+  tags: [ender, 0bar, corner, medium]

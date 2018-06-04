@@ -1,0 +1,29 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, cr.HP xx dp+K>K"
+  damage: 239
+  tags: [hitconfirm, 0bar, medium, bnb]
+# punish
+- combo: "uf+MK, uf+MK, cl.HP xx qcb+P/dp+HP"
+  damage: 406
+  tags: [punish, 0bar, easy, bnb]
+# low
+- combo: "cr.LK xx dp+LK>K"
+  damage: 176
+  tags: [low, 0bar, easy, bnb]
+- combo: "cr.LK~cr.MP~cr.HP xx dp+KK, uf+MK, uf+MK, cl.HP xx qcb+P/dp+HP"
+  damage: 396
+  tags: [low, 1bar, easy, bnb]
+# overhead
+- combo: "(f+MP>MP)>MP, cl.HP xx dp+K>K"
+  damage: 304
+  tags: [overhead, 0bar, easy, bnb]
+- combo: "KK>MP, cl.HP xx qcb+P/dp+HP"
+  damage: 324
+  tags: [overhead, 0bar, easy]
+# counterhit
+- combo: "b+MK, EX CADC, f+LK+MP, uf+MK, cl.HP xx qcb+P/dp+HP"
+  damage: 507
+  tags: [counterhit, 1bar, easy]
+# juggle
+- combo: "uf+MK, cl.HP xx qcb+P/dp+HP"
+  tags: [juggle, 0bar, easy, bnb]

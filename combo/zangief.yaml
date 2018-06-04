@@ -1,0 +1,37 @@
+# hitconfirm
+- combo: "cl.MP, st.MP~st.HP~HP_HK"
+  tags: [hitconfirm, 0bar, xrush, close, hard, bnb]
+- combo: "cr.LP xx cr.LP xx st.LK~st.MK~st.HP~HP_HK"
+  tags: [hitconfirm, 0bar, xrush, easy, bnb]
+- combo: "cl.HP, st.LK~st.MK~st.HP~HP_HK"
+  tags: [hitconfirm, 0bar, xrush, close, medium]
+- combo: "cl.HP, st.LK xx dp+P"
+  tags: [hitconfirm, 0bar, close, medium]
+- combo: "cr.LK, cr.LK, cr.LK xx dp+PP, cr.HP, st.LK xx dp+P"
+  tags: [hitconfirm, 1bar, close, veryhard]
+- combo: "cl.HP, st.LK xx dp+PP, cr.HP, st.LK xx dp+P"
+  tags: [hitconfirm, 1bar, close, hard, bnb]
+- combo: "cl.HP, st.LK xx dp+PP, cr.HP, cl.MP, cl.MP xx dp+P"
+  tags: [hitconfirm, 1bar, close, corner, hard]
+- combo: "cl.HP, st.LK xx dp+PP, cr.HP, cl.MP, cl.MP xx KKK (or PPP)"
+  tags: [hitconfirm, 1bar, close, corner, hard]
+- combo: "cl.HP, st.LK xx dp+PP, cr.MK, cl.MP, cl.MP xx KKK (or PPP)"
+  tags: [hitconfirm, 1bar, close, corner, medium, bnb]
+- combo: "cl.HP, st.LK xx dp+PP, cr.MK, cl.MK, st.MK~st.HK"
+  tags: [hitconfirm, 1bar, close, medium, bnb]
+# punish
+- combo: "cr.LP st.LK~st.HP~HP_HK"
+  tags: [punish, 0bar, easy]
+- combo: "cr.LP xx dp+PP, cr.MK, cl.MK, st.MK~st.HK"
+  tags: [punish, 1bar, medium]
+# juggle
+- combo: "cl.HP, st.LK xx dp+P"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.MP, st.MP, st.MK~st.HK"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "cr.MK, cl.MK xx dp+P"
+  tags: [juggle, 0bar, easy]
+- combo: "cl.HP, cl.MP, cl.MP xx dp+P"
+  tags: [juggle, 0bar, corner, hard, bnb]
+- combo: "cl.MP, cl.MP, cl.MP xx KKK (or PPP)"
+  tags: [juggle, 0bar, corner, easy, bnb]

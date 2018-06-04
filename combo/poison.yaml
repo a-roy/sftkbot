@@ -1,0 +1,61 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, cr.MK xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 206
+  comment: "`qcb+P` ender may whiff at range"
+  tags: [hitconfirm, 0bar, easy]
+- combo: "cr.LP, cr.LP, cr.HP xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 230
+  comment: "`qcb+P` ender may whiff at range"
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cr.LK cr.LP, cr.MK xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 206
+  comment: "`qcb+P` ender may whiff at range"
+  tags: [hitconfirm, 0bar, low, easy]
+- combo: "cr.LK cr.LP, cr.HP xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 230
+  comment: "`qcb+P` ender may whiff at range"
+  tags: [hitconfirm, 0bar, low, medium, bnb]
+- combo: "cl.MP, cr.LP, cr.HP xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 270
+  comment: "`qcb+P` ender may whiff at range"
+  tags: [hitconfirm, 0bar, punish, hard, bnb]
+# buffer
+#- combo: "cr.MK xx qcb+P>qcb+P>qcb+P"
+#  damage: 196
+#  tags: [buffer, 0bar, low, easy]
+# safe
+- combo: "qcb+MK/qcb+HK, cl.HP xx qcb+P>qcb+P>qcb+P"
+  damage: 255
+  tags: [safe, 0bar, medium]
+- combo: "qcb+MK/qcb+HK, cl.MP, cr.LP, cr.HP xx dp+HK"
+  damage: 291
+  tags: [safe, 0bar, hard]
+- combo: "(near max range) qcf+LP/qcf+MP, qcb+KK,
+  cl.HP xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 280
+  tags: [safe, 1bar, medium]
+- combo: "(near max range) qcf+LP/qcf+MP, qcb+KK, cl.MP, cr.LP, cr.HP xx dp+HK"
+  damage: 291
+  tags: [safe, 1bar, hard]
+- combo: "(near max range) qcf+MP, qcb+HK, dash, st.MP xx qcb+P>qcb+P>qcb+P"
+  damage: 235
+  tags: [safe, 0bar, corner, easy]
+# punish
+- combo: "cl.HP/cl.HK xx qcf+PP, cr.MK xx dp+HK/qcb+P>qcb+P>qcb+P"
+  damage: 336
+  tags: [punish, 1bar, medium, bnb]
+# juggle
+- combo: "cl.LK, cl.MP, cr.HP xx dp+HK(3)"
+  tags: [juggle, 0bar, easy]
+- combo: "cl.MP, cr.HP xx dp+HK(3)"
+  tags: [juggle, 0bar, easy, bnb]
+  comment: "BnB post-launch"
+- combo: "cl.HP/cl.HK xx CADC, cr.LP, walk forward cl.HP/cr.HP xx dp+HK(3)"
+  tags: [juggle, 0bar, hard]
+- combo: "cl.MP, cl.MP, cl.MP, cl.HP xx dp+HK(3)"
+  tags: [juggle, 0bar, corner, medium, bnb]
+  comment: "Corner post-launch"
+- combo: "cl.HP, cl.MP, cl.HP xx dp+HK(3)"
+  tags: [juggle, 0bar, corner, medium]
+- combo: "cl.HP, cl.HP, cl.HP xx dp+HK(3)"
+  tags: [juggle, 0bar, corner, hard, bnb]

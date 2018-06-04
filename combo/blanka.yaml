@@ -1,0 +1,22 @@
+- combo: "cr.LP, st.LP~st.MP~st.HP~HP_HK"
+  tags: [easy, 0bar, xrush, bnb]
+- combo: "st.LP, st.LP~st.MP~st.HP~HP_HK"
+  tags: [hard, 0bar, xrush, bnb]
+- combo: "cl.HK, cr.MK xx [d]~u+HK"
+  damage: 254
+  tags: [punish, 0bar, medium, bnb]
+- combo: "cl.MP, st.HK, cr.MK, cr.MK xx [d],u+HK"
+  damage: 318
+  tags: [punish, 0bar, corner, easy]
+- combo: "cl.b_f+MP, cr.MK~st.HP~HP_HK"
+  tags: [overhead, 0bar, medium, xrush, bnb]
+- combo: "cl.b+MP, cr.MK xx [b],f+PP, cr.MK xx [d],u+HK"
+  damage: 366
+  tags: [overhead, 1bar, punish, medium, bnb]
+- combo: "cl.HP xx f+KKK, cr.LK, cr.MK xx [d],u+HK"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "cl.HP xx f+KKK, cr.MK, cr.MK xx [d],u+HK"
+  tags: [juggle, 0bar, medium, bnb]
+- combo: "HP*, cr.MK, cr.MK xx [d],u+HK"
+  comment: "Works midscreen if crossing up the opponent"
+  tags: [juggle, 0bar, corner, medium]

@@ -1,0 +1,67 @@
+# hitconfirm
+- combo: "st.LP>MP, f+MK, st.HK xx hcf+PP, j.HK, cr.HK, dp+MP"
+  damage: 364
+  tags: [hitconfirm, 1bar, medium, bnb]
+- combo: "f+LP>MP xx dp+LP, f+LP>MP xx hcf+LK, cr.MP xx dp+HP"
+  damage: 298
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "f+LP>MP xx dp+LP, f+LP>MP xx hcf+MK, cr.MP xx hcb+MK"
+  damage: 306
+  tags: [hitconfirm, 0bar, hard]
+- combo: "cr.LK, cr.LK, cr.MP xx hcf+PP, j.HK, cr.HK, dp+MP"
+  damage: 312
+  tags: [hitconfirm, 1bar, low, medium, bnb]
+- combo: "cr.LK>MK, st.HK xx hcf+PP, j.HK, cr.HK, dp+MP"
+  damage: 354
+  tags: [hitconfirm, 1bar, low, medium, bnb]
+- combo: "cr.LK>d+MP, st.HK xx hcf+PP, j.HK, cr.HK, dp+MP"
+  damage: 354
+  tags: [hitconfirm, 1bar, low, medium]
+- combo: "cr.LK>d+MP>d+HP~HP+HK"
+  tags: [hitconfirm, 0bar, low, easy]
+# safe
+- combo: "hcf+PP, f+MK, f+MK, f+MK, dp+MP"
+  damage: 337
+  tags: [safe, 1bar, easy]
+- combo: "hcf+PP, f+MK, st.HK xx hcf+LK, cr.MP xx hcb+MK"
+  damage: 346
+  tags: [safe, 1bar, hard]
+# low
+- combo: "cr.LK>MK xx dp+LP, f+LP>MP xx hcf+LK, cr.MP xx dp+HP"
+  damage: 288
+  tags: [low, 0bar, hard]
+# overhead
+- combo: "f+HK, st.HK xx dp+LP, f+LP>MP xx hcf+LK, cr.MP xx dp+HP"
+  damage: 333
+  tags: [overhead, 0bar, medium, bnb]
+- combo: "f+HK, st.HK xx dp+LP, f+LP>MP xx hcf+MK, cr.MP xx hcb+MK"
+  damage: 341
+  tags: [overhead, 0bar, hard]
+- combo: "f+HK>MK, st.HK xx dp+LP, f+LP>MP xx hcf+LK, cr.MP xx dp+HP"
+  damage: 343
+  tags: [overhead, 0bar, medium, bnb]
+- combo: "f+HK, cr.MP xx hcf+PP, f+MK, f+MK, f+MK, dp+MP"
+  damage: 366
+  tags: [overhead, 1bar, easy]
+- combo: "f+HK>MK, cr.MP xx hcf+PP, j.HK, cr.HK, dp+MP"
+  damage: 372
+  tags: [overhead, 1bar, medium]
+- combo: "f+HK>MK, st.HK xx hcf+PP, j.HK, cr.HK, dp+MP"
+  damage: 384
+  tags: [overhead, 1bar, medium]
+# punish
+- combo: "f+MK, st.HK xx hcf+PP, f+MK, f+MK, f+MK, dp+MP"
+  damage: 391
+  tags: [punish, 1bar, easy, bnb]
+- combo: "f+MK, st.MK>HK, dp+LP, f+LP>MP xx hcf+MK, cr.MP xx hcb+MK"
+  damage: 371
+  tags: [punish, 0bar, veryhard]
+# juggle
+- combo: "f+MK, f+MK, f+MK, dp+MP"
+  tags: [juggle, 0bar, easy, bnb]
+- combo: "f+MK, st.HK xx dp+LP, hcf+K>K"
+  tags: [juggle, 0bar, medium]
+- combo: "f+MK, st.HK xx hcf+LK, cr.MP xx dp+HP"
+  tags: [juggle, 0bar, hard, bnb]
+- combo: "f+MK, st.HK xx hcf+LK, cr.MP xx hcb+MK"
+  tags: [juggle, 0bar, veryhard]
