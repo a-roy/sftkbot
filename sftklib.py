@@ -24,24 +24,6 @@ tierssheetId = '1tMXpv_vqHgIra70trXLBW3WKUhJiF17g1MtXZpTxaFc'
 RESULT_LIMIT = 10
 SYNERGY_LIMIT = 16
 
-headers = [
-        'hitconfirm',
-        'buffer',
-        'safe',
-        'punish',
-        'low',
-        'overhead',
-        'throw',
-        'yolo',
-        'invulnerable',
-        'armor',
-        'antiair',
-        'air2air',
-        'antibackdash',
-        'counterhit',
-        'juggle',
-        'ender']
-
 stances = {
         'Back Turn': 'BT',
         'Coassack Kicks': 'CSK',
