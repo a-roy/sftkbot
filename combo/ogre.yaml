@@ -52,8 +52,8 @@
 - combo: "uf+LK>MK, cl.HK xx dp+LK"
   tags: [juggle, 0bar, easy, bnb]
 - combo: "uf+LK>MK, cl.HK xx qcb+HP"
-  tags: [juggle, 0bar, easy, bnb]
+  tags: [juggle, 0bar, easy]
 - combo: "cl.HK xx CADC, cl.HP xx dp+LK"
-  tags: [juggle, 0bar, medium, bnb]
+  tags: [juggle, 0bar, medium]
 - combo: "cl.HK xx CADC, cl.HP xx qcb+HP"
   tags: [juggle, 0bar, medium]

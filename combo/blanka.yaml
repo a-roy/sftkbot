@@ -1,7 +1,7 @@
 - combo: "cr.LP, st.LP~st.MP~st.HP~HP_HK"
-  tags: [easy, 0bar, xrush, bnb]
+  tags: [xrush, 0bar, easy, bnb]
 - combo: "st.LP, st.LP~st.MP~st.HP~HP_HK"
-  tags: [hard, 0bar, xrush, bnb]
+  tags: [xrush, 0bar, hard, bnb]
 - combo: "cl.HK, cr.MK xx [d]~u+HK"
   damage: 254
   tags: [punish, 0bar, medium, bnb]
