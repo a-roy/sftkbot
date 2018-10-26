@@ -56,7 +56,7 @@
 # counterhit
 - combo: "f+HK, cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
   damage: 447
-  tags: [crouching, 0bar, counterhit, medium, bnb]
+  tags: [counterhit, 0bar, crouching, medium, bnb]
 # antiair
 - combo: "b+MP, st.MK xx dp+HK"
   damage: 240
