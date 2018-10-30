@@ -133,9 +133,11 @@ if __name__ == '__main__':
     while api_token:
         try:
             bot.run(api_token)
-        except (ConnectionResetError, RuntimeError) as e:
+            break
+        except (ConnectionResetError, RuntimeError, OSError) as e:
             bot.close()
             time.sleep(retry_time)
             retry_time += retry_increment
         except:
+            bot.close()
             break
