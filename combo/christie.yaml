@@ -2,28 +2,30 @@
 - combo: "cr.LP, st.LP, st.MP xx qcf+MP"
   damage: 266/286
   comment: "Enders: `ender /^qcf+MP`"
-  tags: [low, 0bar, hitconfirm, medium]
+  tags: [hitconfirm, 0bar, low, medium]
 - combo: "cr.LP, st.LP>f+MP xx qcf+MP"
   damage: 266/286
   comment: "Enders: `ender /^qcf+MP`"
-  tags: [low, 0bar, hitconfirm, easy, bnb]
+  tags: [hitconfirm, 0bar, low, easy, bnb]
 - combo: "cr.LP, cr.LP>MK xx qcf+MP"
   damage: 266/286
   comment: "Enders: `ender /^qcf+MP`"
-  tags: [low, 0bar, hitconfirm, hard]
+  tags: [hitconfirm, 0bar, low, hard]
 - combo: "cr.LP, st.LP, cr.LK~st.MK>MK xx qcf+MP"
   damage: 267/272
   comment: "Enders: `ender /^qcf+MP`"
-  tags: [low, 0bar, hitconfirm, medium]
+  tags: [hitconfirm, 0bar, low, medium]
 - combo: "cr.LK~st.MK>MK xx qcf+MP"
   damage: 302/322
   comment: "Enders: `ender /^qcf+MP`"
-  tags: [low, 0bar, buffer, hitconfirm, easy, bnb]
+  tags: [hitconfirm, 0bar, low, buffer, easy, bnb]
+
 # buffer
 - combo: "cr.MK xx qcf+MP"
   damage: 285/329
   comment: "Enders: `ender /^qcf+MP`"
-  tags: [low, 0bar, buffer, easy]
+  tags: [buffer, 0bar, low, easy]
+
 # punish
 - combo: "cr.LP>f+MK xx qcf+HP, st.MP, cr.LK~st.MK>MK xx qcf+K, HSP f"
   tags: [punish, 0bar, low, midscreen, medium]
@@ -36,6 +38,7 @@
 - combo: "st.HP(2) xx qcf+HP, cr.HP xx hcb+LP, qcf+PPP"
   damage: 532
   tags: [punish, 2bar, medium]
+
 # overhead
 - combo: "(cr.LP>MK>d+HK)>LK xx qcf+MP"
   damage: 285/329
@@ -44,6 +47,7 @@
 - combo: "(f+HK)>HK/(cr.LP>MK>d+HK>MK)>HK, cr.HP xx hcb+LP, walk forward cr.HK"
   damage: 300
   tags: [overhead, 0bar, midscreen, easy]
+
 # counterhit
 - combo: "st.MP, st.HP(2) xx qcf+HP, cr.LP, cr.HP xx hcb+LP"
   damage: 360
@@ -51,6 +55,7 @@
 - combo: "st.MP, st.HP(2) xx qcf+HP, st.MP, cr.LK~st.MK>MK xx qcf+K, HSP f"
   damage: 392
   tags: [counterhit, 0bar, medium]
+
 # invulnerable
 - combo: "hcb+PP, cr.LP, cr.HP xx hcb+LP"
   damage: 278
@@ -61,13 +66,16 @@
 - combo: "hcb+PP, st.MP, cr.LK~st.MK>MK xx qcf+K, HSP f"
   damage: 337
   tags: [invulnerable, 1bar, overhead, midscreen, medium]
+
 # antiair
 - combo: "qcf+LP, cr.HK"
   damage: 160
   tags: [antiair, 0bar, easy]
+
 # juggle
 - combo: "st.HP(2) xx qcf+K, HSP d+K, HSP f"
   tags: [juggle, 0bar, easy, bnb]
+
 # ender
 - combo: "qcf+MP, cr.LP, cr.HP xx hcb+LP"
   comment: "Starters: `/qcf+MP$`"
