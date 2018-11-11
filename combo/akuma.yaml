@@ -21,18 +21,22 @@
 - combo: "st.HK, cl.HP xx qcb+LK, cl.LK, st.HK, cl.HP xx dp+HP"
   damage: 368
   tags: [hitconfirm, 0bar, medium]
+
 # punish
 - combo: "cr.MP, cr.HP xx qcb+LK, cl.LK, st.HK, cl.HP xx dp+HP"
   damage: 338
   tags: [punish, 0bar, medium, bnb]
+
 # yolo
 - combo: "qcb+KK, st.HK, cl.HP xx hcb+HP, cl.MP, cr.HP xx dp+HP"
   damage: 474
   tags: [yolo, 1bar, corner, hard, bnb]
+
 # antiair
 - combo: "(trade) dp+MP, st.HK, cl.HP xx dp+HP"
   damage: 303
   tags: [antiair, 0bar, medium]
+
 # juggle
 - combo: "cl.MP, st.HK, cl.HP xx dp+HP"
   tags: [juggle, 0bar, easy, bnb]

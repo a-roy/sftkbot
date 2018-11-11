@@ -36,6 +36,7 @@
 - combo: "FLA MK>LK>df, cr.LP~st.MK>MK>HK xx qcb+HK"
   damage: 309
   tags: [hitconfirm, 0bar, standing, easy]
+
 # punish
 - combo: "st.MP>LP, FLA MP>MP>f, dp+HP xx qcb+HK"
   damage: 331
@@ -65,6 +66,7 @@
   damage: 492/464/443
   comment: "Enders: `ender /^qcb+KK`"
   tags: [punish, 1bar, standing, easy]
+
 # overhead
 - combo: "f+MK>df, cr.LP~st.MK>MK>HK xx qcb+HK"
   damage: 277
@@ -92,6 +94,7 @@
 - combo: "f+MK>f, FLA MK>LK>f, FLA MP>MP>f, FLA MP, cr.MP xx qcb+HK"
   damage: 434
   tags: [overhead, 0bar, corner, counterhit, hard]
+
 # counterhit
 - combo: "st.HK xx CADC, cr.LK~st.MK>MK>df, cr.LP~st.MP>MP xx qcb+HK"
   damage: 330
@@ -138,6 +141,7 @@
   damage: 532/511/493
   comment: "Enders: `ender /^qcb+KK`"
   tags: [counterhit, 1bar, hard]
+
 # antiair
 - combo: "FLA HK xx dp+P xx hcb+LP"
   damage: 290/250/242
@@ -155,6 +159,7 @@
 - combo: "st.HK xx dp+HP xx hcb+LP"
   damage: 313/273/265
   tags: [antiair, 0bar, counterhit, easy]
+
 # air2air
 - combo: "j.LP>MP, cr.MP xx qcb+HK"
   damage: 263
@@ -162,6 +167,7 @@
 - combo: "j.LP>MP, st.HK xx qcb+HK"
   damage: 287
   tags: [air2air, 0bar, easy]
+
 # antibackdash
 - combo: "st.LK (whiff)>MK xx hcb+P, st.HK xx qcb+HK"
   damage: 327
@@ -175,6 +181,7 @@
 - combo: "hcb+P, walk forward, st.LK>MK>df, st.HK xx qcb+HK"
   damage: 319
   tags: [antibackdash, 0bar, medium]
+
 # juggle
 - combo: "cr.MP, st.LK, st.HK xx qcb+HK"
   tags: [juggle, 0bar, medium]
@@ -202,6 +209,7 @@
 - combo: "j.HK, ..."
   comment: "Doesn't consume juggle points"
   tags: [juggle, 0bar, easy]
+
 # ender
 - combo: "qcb+KK, j.HK, cr.MP xx qcb+HK"
   comment: "Starters: `/qcb+KK$`"

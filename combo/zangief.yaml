@@ -19,11 +19,13 @@
   tags: [hitconfirm, 1bar, close, corner, medium, bnb]
 - combo: "cl.HP, st.LK xx dp+PP, cr.MK, cl.MK, st.MK~st.HK"
   tags: [hitconfirm, 1bar, close, medium, bnb]
+
 # punish
 - combo: "cr.LP st.LK~st.HP~HP_HK"
   tags: [punish, 0bar, easy]
 - combo: "cr.LP xx dp+PP, cr.MK, cl.MK, st.MK~st.HK"
   tags: [punish, 1bar, medium]
+
 # juggle
 - combo: "cl.HP, st.LK xx dp+P"
   tags: [juggle, 0bar, medium, bnb]

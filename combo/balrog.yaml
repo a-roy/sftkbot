@@ -2,10 +2,12 @@
 - combo: "cr.LK, cr.LP, cr.LP xx [d],u+MP, cr.MP xx [b],f+[K] (delay), [b],f+HP"
   damage: 266
   tags: [hitconfirm, 0bar, low, medium, bnb]
+
 # punish
 - combo: "cr.MP xx [d],u+LP, cr.MP xx [b],f+[K] (delay), [b],f+HP"
   damage: 329
   tags: [punish, 0bar, medium, bnb]
+
 # overhead
 - combo: "[b],df+[P], cr.MP xx [d],u+MP, cr.MP xx [b],f+[K] (delay), [b],f+HP"
   damage: 376
@@ -19,10 +21,12 @@
 - combo: "[b],df+[P], cr.MP xx [d],u+MP, cl.MK xx [b],f+LK, [b],f+KKK"
   damage: 515
   tags: [overhead, 2bar]
+
 # counterhit
 - combo: "st.HP, *KKK* (lv.1), *PPP* (lv.2), j.HK, cl.MK xx [b],f+HP"
   damage: 474
   tags: [counterhit, 0bar, hard, bnb]
+
 # juggle
 - combo: "cr.MP xx [b],f+[K] (delay), [b],f+HP"
   tags: [juggle, 0bar, easy, bnb]

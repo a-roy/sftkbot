@@ -12,6 +12,7 @@
   damage: 375
   comment: "EX charge setup"
   tags: [safe, 0bar, hard]
+
 # buffer
 - combo: "cr.MK xx CD~EWGF, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
   damage: 457
@@ -24,6 +25,7 @@
   damage: 391
   comment: "EX charge setup"
   tags: [buffer, 0bar, low, hard]
+
 # overhead
 - combo: "f+MK, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
   damage: 449
@@ -37,6 +39,7 @@
 - combo: "f+LK, EWGF, cr.HP xx EWGF, cr.HP xx EWGF, EWGF"
   damage: 486
   tags: [overhead, 0bar, counterhit, corner, hard]
+
 # juggle
 - combo: "EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
   tags: [juggle, 0bar, hard, bnb]

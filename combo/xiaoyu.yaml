@@ -15,6 +15,7 @@
   qcf+LP/cr.HK"
   damage: 384/378
   tags: [hitconfirm, 0bar, medium, bnb]
+
 # safe
 - combo: "cl.HP xx d+PPP, AOP P, st.MP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
   damage: 376/383
@@ -44,10 +45,12 @@
   qcf+LP/cr.HK"
   damage: 392/386
   tags: [safe, 0bar, low, corner, medium]
+
 # overhead
 - combo: "f+MK, cl.HP xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
   damage: 344/335
   tags: [overhead, 0bar, easy, bnb]
+
 # yolo
 - combo: "RDS qcf+K>K, RDS P"
   damage: 260
@@ -55,6 +58,7 @@
 - combo: "RDS qcf+K>K, RDS cancel, cr.MK xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
   damage: 384/375
   tags: [yolo, 0bar, medium, bnb]
+
 # juggle
 - combo: "cl.HP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
   tags: [juggle, 0bar, easy, bnb]

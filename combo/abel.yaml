@@ -1,26 +1,39 @@
+# hitconfirm
 - combo: "cr.LK, cr.LP, cr.MP xx [b],f+P"
-  tags: [low, 0bar, hitconfirm, easy, bnb]
+  tags: [hitconfirm, 0bar, low, easy, bnb]
 - combo: "cr.LK, cr.LP, cr.MP xx [b],f+PP, j.HP, cl.HP(1) xx qcb+LK, dash,
   cl.HP(1) xx dp+HP"
   damage: 350
-  tags: [low, 1bar, hitconfirm, midscreen, medium, bnb]
+  tags: [hitconfirm, 1bar, low, midscreen, medium, bnb]
+
+# buffer
 - combo: "st.LK~cr.MK~cl.HP xx [b],f+PP, j.HP, cl.HP(1) xx qcb+LK, dash,
   cl.HP(1) xx dp+HP"
   damage: 348
-  tags: [midscreen, 1bar, medium, bnb]
+  tags: [buffer, 1bar, midscreen, medium, bnb]
 - combo: "f+MK>dash, cl.HP(1) xx qcf+HP>f+P>f+P"
   damage: 289
-  tags: [easy, 0bar, bnb]
+  tags: [buffer, 0bar, easy, bnb]
+
+# punish
 - combo: "cr.HP xx qcb+HK, f+MK>dash, cl.HP(1) xx dp+HP"
   damage: 382
   tags: [punish, 0bar, easy, bnb]
+
+# overhead
 - combo: "cl.HK~HP+HK"
   tags: [overhead, 0bar, easy, bnb]
+
+# antiair
 - combo: "cr.HP xx qcb+LK, f+MK>dash, cl.HP(1) xx dp+HP"
   damage: 342
   tags: [antiair, 0bar, easy, bnb]
+
+# antibackdash
 - combo: "f+MK>dash, cl.HP(1) xx dp+HP"
   damage: 248
   tags: [antibackdash, 0bar, medium, bnb]
+
+# juggle
 - combo: "cl.HP(1) xx qcb+LK, f+MK>dash, cl.HP(1) xx dp+HP"
   tags: [juggle, 0bar, easy, bnb]

@@ -33,6 +33,7 @@
   tags: [punish, 2bar, medium, bnb]
 
 # counterhit
+
 # juggle
 - combo: "cl.HP xx CADC, cl.MP, st.HP xx dp+HK"
   tags: [juggle, 0bar, medium, bnb]

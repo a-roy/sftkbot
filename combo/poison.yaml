@@ -19,10 +19,12 @@
   damage: 270
   comment: "`qcb+P` ender may whiff at range"
   tags: [hitconfirm, 0bar, punish, hard, bnb]
+
 # buffer
 #- combo: "cr.MK xx qcb+P>qcb+P>qcb+P"
 #  damage: 196
 #  tags: [buffer, 0bar, low, easy]
+
 # safe
 - combo: "qcb+MK/qcb+HK, cl.HP xx qcb+P>qcb+P>qcb+P"
   damage: 255
@@ -40,10 +42,12 @@
 - combo: "(near max range) qcf+MP, qcb+HK, dash, st.MP xx qcb+P>qcb+P>qcb+P"
   damage: 235
   tags: [safe, 0bar, corner, easy]
+
 # punish
 - combo: "cl.HP/cl.HK xx qcf+PP, cr.MK xx dp+HK/qcb+P>qcb+P>qcb+P"
   damage: 336
   tags: [punish, 1bar, medium, bnb]
+
 # juggle
 - combo: "cl.LK, cl.MP, cr.HP xx dp+HK(3)"
   tags: [juggle, 0bar, easy]

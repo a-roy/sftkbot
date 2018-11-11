@@ -27,6 +27,7 @@
 - combo: "st.MP, f+LK xx qcb+KK, walk forward cl.HK>jc j.HK, dp+HK"
   damage: 374
   tags: [hitconfirm, 1bar, corner, medium, bnb]
+
 # punish
 - combo: "st.MK xx dp+KK j.HP, cr.MP~st.HP>df+HK>f+HK>jc j.LK>(delay)f+MK,
   hcb+P"
@@ -43,6 +44,7 @@
 - combo: "cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+PPP"
   damage: 514
   tags: [punish, 2bar, medium]
+
 # overhead
 - combo: "f+MK, cl.LP>f+MP>f+HP xx hcf+P"
   damage: 287
@@ -53,10 +55,12 @@
 - combo: "f+MK, st.MK~cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
   damage: 363
   tags: [overhead, 0bar, medium, bnb]
+
 # counterhit
 - combo: "f+HK, cl.HP>df+HK>f+HK>jc j.LK>(delay)f+MK, hcb+P"
   damage: 447
   tags: [counterhit, 0bar, crouching, medium, bnb]
+
 # antiair
 - combo: "b+MP, st.MK xx dp+HK"
   damage: 240
@@ -70,6 +74,7 @@
 - combo: "dp+LK (max height), cl.HK>jc j.HK, dp+HK"
   damage: 295
   tags: [antiair, 0bar, easy]
+
 # juggle
 - combo: "cl.HK>jc j.HK, dp+HK"
   tags: [juggle, 0bar, easy, bnb]

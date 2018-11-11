@@ -1,18 +1,22 @@
 # hitconfirm
 - combo: "cr.LP, cr.LP~st.MP~HP+HK"
   tags: [hitconfirm, 0bar, easy, bnb]
+
 # punish
 - combo: "qcb+HP, cr.MP xx qcf+LK, cr.LK xx qcb+HP, dp+MK"
   damage: 427
   tags: [punish, 0bar, easy, bnb]
+
 # overhead
 - combo: "d,d+MK, qcb+HP, cr.MP xx qcf+LK, cr.LK xx qcb+HP, dp+MK"
   damage: 434
   tags: [overhead, 0bar, counterhit, easy, bnb]
+
 # throw
 - combo: "hcb+K, cr.LK xx qcb+HP, dp+MK"
   damage: 324
   tags: [throw, 0bar, easy, bnb]
+
 # juggle
 - combo: "cr.LK xx qcb+HP, dp+MK"
   tags: [juggle, 0bar, easy, bnb]

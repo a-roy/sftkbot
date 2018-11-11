@@ -26,14 +26,17 @@
 - combo: "cl.MP, f+MP, cr.MP xx *P*, cl.HK, xx qcb+HP(3), cl.HP, cl.HK xx *P*"
   damage: 405
   tags: [hitconfirm, 0bar, corner, medium]
+
 # safe
 - combo: "f+HK, f+MP, cr.HP xx *P*/qcf+MK"
   damage: 292
   tags: [safe, 0bar, standing, medium]
+
 # buffer
 - combo: "cr.LK xx qcb+HP"
   damage: 170
   tags: [low, 0bar, buffer, easy]
+
 # punish
 - combo: "cl.HP, cr.HP xx qcb+HP"
   damage: 292
@@ -50,6 +53,7 @@
   damage: 470
   comment: "Requires pre-charge"
   tags: [punish, 0bar, corner, medium, bnb]
+
 # invulnerable
 - combo: "*PP*, cr.MK, cr.MP xx *P*/qcf+MK"
   damage: 279
@@ -60,6 +64,7 @@
 - combo: "*PP*, f+HK, cr.HP xx *P*/qcf+MK"
   damage: 332
   tags: [invulnerable, 1bar, medium]
+
 # juggle
 - combo: "cl.HP, cr.MP xx *P*"
   tags: [juggle, 0bar, medium, bnb]

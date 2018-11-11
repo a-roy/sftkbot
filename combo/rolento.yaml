@@ -1,3 +1,11 @@
+# hitconfirm
+- combo: "cr.LP, cr.LP, cr.MK xx qcf+P>qcf+P>qcf+P, walk forward, st.MK~cr.HK"
+  tags: [hitconfirm, 0bar, medium, bnb]
+- combo: "cr.LP, cr.LP, cr.MK xx qcf+P>qcf+P>qcf+P, cl.HK, cl.HK,
+  cr.MK xx qcf+MP>qcf+MP>qcf+MP"
+  tags: [hitconfirm, 0bar, hard, corner, bnb]
+
+# punish
 - combo: "cl.HK, cr.MK xx qcf+P>qcf+P>qcf+P, walk forward, st.MK~cr.HK"
   tags: [punish, 0bar, close, medium, bnb]
 - combo: "cl.HK, cr.MK xx qcf+P>qcf+P>qcf+LP, qcf+PPP"
@@ -10,18 +18,17 @@
 - combo: "cl.HK, cr.MK xx qcf+P>qcf+P>qcf+P, cl.HK, cl.HK,
   cr.MK xx qcf+MP>qcf+MP, qcf+MP"
   tags: [punish, 0bar, close, hard, corner, bnb]
-- combo: "cr.LP, cr.LP, cr.MK xx qcf+P>qcf+P>qcf+P, walk forward, st.MK~cr.HK"
-  tags: [hitconfirm, 0bar, medium, bnb]
-- combo: "cr.LP, cr.LP, cr.MK xx qcf+P>qcf+P>qcf+P, cl.HK, cl.HK,
-  cr.MK xx qcf+MP>qcf+MP>qcf+MP"
-  tags: [hitconfirm, 0bar, hard, corner, bnb]
+
+# invulnerable
+- combo: "qcf+PP, (delay) j.HP, cr.LK, cr.MK xx qcf+MP>qcf+MP>qcf+MP"
+  tags: [invulnerable, 1bar, medium, bnb]
+- combo: "qcf+PP, walk forward, cl.MK, st.MK~cr.HK"
+  tags: [invulnerable, 1bar, medium, bnb]
+
+# juggle
 - combo: "cl.LP, walk forward, cl.HK, cr.MK xx qcf+MP>qcf+MP>qcf+MP"
   tags: [juggle, 0bar, close, medium, bnb]
 - combo: "cl.HK, walk forward, st.LP, walk forward, cr.MK xx qcf+MP>qcf+MP>qcf+MP"
   tags: [juggle, 0bar, close, veryhard]
 - combo: "cl.MK, cl.MK, cr.MK xx qcf+MP>qcf+MP>qcf+MP"
   tags: [juggle, 0bar, easy, corner, bnb]
-- combo: "qcf+PP, (delay) j.HP, cr.LK, cr.MK xx qcf+MP>qcf+MP>qcf+MP"
-  tags: [medium, 1bar, invulnerable, bnb]
-- combo: "qcf+PP, walk forward, cl.MK, st.MK~cr.HK"
-  tags: [medium, 1bar, invulnerable, bnb]

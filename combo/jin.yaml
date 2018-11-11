@@ -18,6 +18,7 @@
   walk forward cr.HP xx qcb+P xx f,b,f+HP"
   damage: 403
   tags: [hitconfirm, 1bar, hard]
+
 # buffer
 - combo: "cr.MK xx CD>LP, st.MK xx qcb+P xx f,b,f+HP"
   damage: 287
@@ -25,6 +26,7 @@
 - combo: "cr.MK xx CD>LP, walk forward cr.HP xx qcb+P xx f,b,f+HP"
   damage: 311
   tags: [buffer, 0bar, low, hard]
+
 # safe
 - combo: "st.HK xx CD>LP, st.MK xx qcb+P xx f,b,f+HP"
   damage: 317
@@ -32,6 +34,7 @@
 - combo: "st.HK xx CD>LP, walk forward cr.HP xx qcb+P xx f,b,f+HP"
   damage: 341
   tags: [safe, 0bar, hard]
+
 # punish
 - combo: "cr.MP, cr.HP xx CD>LP, st.MK xx qcb+P xx f,b,f+HP"
   damage: 342
@@ -39,6 +42,7 @@
 - combo: "cr.MP, cr.HP xx CD>LP, walk forward cr.HP xx qcb+P xx f,b,f+HP"
   damage: 363
   tags: [punish, 0bar, hard]
+
 # overhead
 - combo: "f+LK>LP>LK, cr.LP, cr.HP xx CD>LP, st.MK xx qcb+P xx f,b,f+HP"
   damage: 290
@@ -47,6 +51,7 @@
   walk forward cr.HP xx qcb+P xx f,b,f+HP"
   damage: 302
   tags: [overhead, 0bar, hard]
+
 # antiair
 - combo: "d+KK>LK, b+MP>LP xx CADC, cr.MP, cr.HP xx CD>MP"
   damage: 377
@@ -54,6 +59,7 @@
 - combo: "cr.HP, st.MK xx CD>MP"
   damage: 276
   tags: [antiair, 0bar, counterhit, medium, bnb]
+
 # juggle
 - combo: "b+MP>LP xx CADC, cr.MP, cr.HP xx CD>MP"
   tags: [juggle, 0bar, medium, bnb]

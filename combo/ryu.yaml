@@ -13,6 +13,7 @@
   tags: [hitconfirm, 1bar, close, hard]
 - combo: "cr.LP cr.LP, cr.HP xx qcb+LK, cr.HP xx hcf+HK, cr.HP xx qcb+MK"
   tags: [hitconfirm, 0bar, close, corner, medium]
+
 # punish
 - combo: "f+HP, dp+HP"
   tags: [punish, 0bar, easy]
@@ -22,6 +23,7 @@
   tags: [punish, 1bar, close, hard]
 - combo: "f+HP, cr.HP xx hcf+KK, j.HP, cr.HP xx CADC, cr.HP xx qcf+PPP"
   tags: [punish, 3bar, close, hard]
+
 # juggle
 - combo: "cr.MP, cr.MK xx qcb+HK"
   tags: [juggle, 0bar, easy]

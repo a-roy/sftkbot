@@ -5,6 +5,7 @@
 - combo: "st.LP>LP, cr.HK(2) xx CADC, cl.HK xx CADC, cl.HP xx qcb+HP"
   damage: 362
   tags: [hitconfirm, 0bar, medium, bnb]
+
 # low
 - combo: "st.LK, cr.LK>d+MK>d+MK, st.HP, cr.MK xx dp+MK"
   damage: 288
@@ -12,6 +13,7 @@
 - combo: "st.LK, cr.LK>d+MK>d+MK, st.HP, cr.MK xx qcb+HP"
   damage: 312
   tags: [low, 0bar, hitconfirm, easy]
+
 # punish
 - combo: "cr.HK(2) xx CADC, cl.HK xx CADC, cl.HP xx dp+LK"
   damage: 352
@@ -22,6 +24,7 @@
 - combo: "cl.HK xx dp+LK, cl.HK xx CADC, cl.HK xx dp+K, qcf+LP"
   damage: 460
   tags: [punish, 0bar, corner, hard, bnb]
+
 # overhead
 - combo: "(f+HK)>HK>HK>HK>HK xx qcb+LP"
   damage: 209
@@ -41,6 +44,7 @@
 - combo: "dp+K, cl.HK xx CADC, cl.HK xx dp+K, qcf+LP"
   damage: 410
   tags: [overhead, 0bar, corner, hard]
+
 # invulnerable
 - combo: "qcb+KK, uf+LK>MK, cl.HK xx dp+LK"
   damage: 297
@@ -48,6 +52,7 @@
 - combo: "qcb+KK, uf+LK>MK, cl.HK xx qcb+HP"
   damage: 354
   tags: [invulnerable, 1bar, easy, bnb]
+
 # juggle
 - combo: "uf+LK>MK, cl.HK xx dp+LK"
   tags: [juggle, 0bar, easy, bnb]

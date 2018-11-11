@@ -24,6 +24,7 @@
 - combo: "cl.HP, cr.MP xx [db],f+MK, df+HK, [db],f+HK"
   damage: 349 # claw off 329
   tags: [hitconfirm, 0bar, punish, medium, bnb]
+
 # safe
 - combo: "df+HK, cl.MK, cr.MK, cr.MP xx [db],f+HK"
   damage: 312
@@ -35,6 +36,7 @@
 - combo: "(near max range) df+HK, df+HK, cl.HP, [db],f+HK"
   damage: 336
   tags: [safe, 0bar, corner, standing, medium]
+
 # punish
 - combo: "cl.HP xx [b],f+HP, cr.MP xx [db],f+MK, df+HK, [db],f+HK"
   damage: 393 # claw off 370
@@ -43,6 +45,7 @@
 - combo: "[b],f+HP, cr.MP xx [db],f+LK, cr.MP xx [db],f+HK, [db],f+KK"
   damage: 440
   tags: [punish, 1bar, standing, medium]
+
 # juggle
 - combo: "cl.MK, cr.MK, cr.MP xx [db],f+HK"
   comment: "BnB post-launch, can be done w/o claw in the corner"

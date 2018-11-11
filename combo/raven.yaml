@@ -1,3 +1,4 @@
+# hitconfirm
 - combo: "st.LP, st.LP, cr.MP xx qcb+P, cr.LK, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 336
   tags: [hitconfirm, 0bar, easy]
@@ -7,6 +8,8 @@
 - combo: "st.LP, st.LP, cr.MP xx qcb+P, cl.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 354
   tags: [hitconfirm, 0bar, midscreen, medium, bnb]
+
+# punish
 - combo: "cl.HK, cr.MP xx qcb+P, cr.LK, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 436
   tags: [punish, 0bar, medium, bnb]
@@ -19,9 +22,13 @@
 - combo: "cr.HP xx qcb+P(delay), cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 435
   tags: [punish, 0bar, midscreen, medium, bnb]
+
+# low
 - combo: "cr.LK, st.LP, cr.HP xx qcb+P(delay), cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 375
   tags: [low, 0bar, hitconfirm, midscreen, hard, bnb]
+
+# overhead
 - combo: "b+MK>MK,cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 337
   tags: [overhead, 0bar, counterhit, easy]
@@ -34,9 +41,13 @@
 - combo: "b+MK>MK, qcb+P, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 395
   tags: [overhead, 0bar, antibackdash, midscreen, medium]
+
+# counterhit
 - combo: "st.HP, j.HK, nj.HK, j.HK, nj.HK, qcf+HK"
   damage: 497
   tags: [counterhit, 0bar, hard]
+
+# air2air
 - combo: "j.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 354
   tags: [air2air, counterhit, 0bar, easy]
@@ -46,6 +57,8 @@
 - combo: "st.MK, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 342
   tags: [antiair, 0bar, counterhit, easy]
+
+# punish
 - combo: "qcf+PP, cl.MP, cr.HP xx CADC, cl.HP xx qcf+HK"
   damage: 385
   tags: [punish, 1bar, easy, bnb]
@@ -61,6 +74,8 @@
 - combo: "cl.HK, cr.MP xx qcb+P, cl.HP, xx qcb+PPP"
   damage: 549
   tags: [punish, 2bar, midscreen, medium]
+
+# juggle
 - combo: "cl.MP, cr.HP xx CADC, cl.HP, xx qcf+HK"
   tags: [juggle, 0bar, easy, bnb]
   comment: "Works from all tags and launchers, may have to hold forward on

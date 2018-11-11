@@ -22,6 +22,7 @@
   damage: 324
   comment: "Enders: `ender /^cl.HK`"
   tags: [hitconfirm, 0bar, corner, medium]
+
 # punish
 - combo: "cl.HP xx qcb+LK, cl.HP xx qcb+LK, cr.LK xx dp+HP"
   damage: 313
@@ -36,6 +37,7 @@
 - combo: "cl.HP xx qcb+LK, cl.HP xx qcb+KK, j.HK, cl.HP xx CADC, cr.HP xx dp+HP"
   damage: 439
   tags: [punish, 1bar, hard]
+
 # invulnerable
 - combo: "dp+PP, dp+HP"
   damage: 230
@@ -43,11 +45,13 @@
 - combo: "dp+PP, walk forward, cr.HK"
   damage: 190
   tags: [invulnerable, 1bar, medium]
+
 # yolo
 - combo: "j.qcb+K, cl.HP xx dp+HK>P, cl.HP xx dp+HP"
   comment: "Enders: `juggle`"
   damage: 296/309
   tags: [yolo, 0bar, medium]
+
 # juggle
 - combo: "cl.HP xx dp+HK>P, cl.HP xx dp+HP"
   tags: [juggle, 0bar, medium, bnb]
@@ -57,6 +61,7 @@
   tags: [juggle, 0bar, corner, easy, bnb]
 - combo: "cl.HK, cr.HP xx dp+HP"
   tags: [juggle, 0bar, corner, medium]
+
 # ender
 - combo: "dp+LP, cl.MP, cl.HP xx qcb+LK, cr.HP xx dp+HP"
   tags: [ender, 0bar, corner, easy, bnb]

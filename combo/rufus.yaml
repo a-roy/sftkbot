@@ -1,10 +1,12 @@
 # hitconfirm
 - combo: "cr.LK cr.LK cr.LP~cr.HP~HP_HK"
   tags: [low, 0bar, hitconfirm, easy]
+
 # safe
 - combo: "cl.LK>f+HK, st.LK>f+HK, df+MK, cl.HP xx CADC"
   damage: 243
   tags: [safe, 0bar, close, hard, bnb]
+
 # punish
 - combo: "cl.HP xx qcf+LK>LK"
   damage: 244
@@ -21,6 +23,7 @@
 - combo: "cl.HP xx qcf+PP, f+HP, f+HP, f+HP xx qcf+MK>MK"
   damage: 428
   tags: [punish, 1bar, corner, medium, bnb]
+
 # juggle
 - combo: "cl.HP xx dp+HP"
   tags: [juggle, 0bar, easy, bnb]

@@ -9,6 +9,7 @@
 - combo: "f+HK, cl.HP xx [b],f+LP, df+HK, cr.MP, cr.MP, cr.MP xx [d],u+K"
   damage: 402
   tags: [hitconfirm, 0bar, corner, medium, bnb]
+
 # juggle
 - combo: "f+MK, cr.MP, cr.MP xx [d],u+K"
   tags: [juggle, 0bar, easy, bnb]

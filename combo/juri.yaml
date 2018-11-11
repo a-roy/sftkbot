@@ -8,6 +8,7 @@
 - combo: "cr.MK xx *LK*, cr.MK xx qcb+KK, cr.HP>jc j.HP, cl.HP xx qcb+LK"
   damage: 339
   tags: [hitconfirm, 1bar, low, lkstore, hard]
+
 # punish
 - combo: "cl.MP xx qcf+[K], f+MK, cr.MK xx qcb+LK"
   damage: 278
@@ -24,10 +25,12 @@
 - combo: "cr.HP xx qcb+HK, cr.HP xx qcf+MK+HK, qcb+KKK"
   damage: 565
   tags: [punish, 3bar, corner, medium]
+
 # yolo
 - combo: "j.qcb+K, walk forward st.MP xx qcb+LK"
   damage: 180
   tags: [yolo, 0bar, easy, bnb]
+
 # invulnerable
 - combo: "qcb+KK, cr.MK xx qcb+LK"
   damage: 220
@@ -35,6 +38,7 @@
 - combo: "qcb+KK, cr.HP>jc j.HP, cl.HP xx qcb+LK"
   damage: 338
   tags: [invulnerable, 1bar, hard, bnb]
+
 # juggle
 - combo: "cl.HP, cr.MK xx qcb+LK"
   tags: [juggle, 0bar, easy]

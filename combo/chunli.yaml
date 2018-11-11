@@ -1,7 +1,7 @@
 # hitconfirm
 - combo: "cr.LK cr.LK, b+MK>MK>jc j.HK, cl.HP xx CADC, cl.HP xx hcb+LK"
   damage: 297
-  tags: [low, 0bar, hitconfirm, medium, bnb]
+  tags: [hitconfirm, 0bar, low, medium, bnb]
 - combo: "st.LP~cr.MP~cl.HP xx hcf+PP, st.MP~st.HP~HP_HK"
   tags: [hitconfirm, 1bar, easy, bnb]
 

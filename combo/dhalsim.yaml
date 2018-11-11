@@ -2,6 +2,7 @@
 - combo: "cr.MP, cr.HP xx hcb+HP, st.LK, cr.MP, df+HK"
   damage: 332
   tags: [hitconfirm, 0bar, corner, medium, bnb]
+
 # punish
 - combo: "cr.HP xx hcb+HP, cr.MP, cr.MP, cr.HP xx hcb+MK"
   damage: 409
@@ -11,6 +12,7 @@
   tags: [punish, 2bar, corner, medium]
 - combo: "f+HK, st.MK~cr.HP~HP_HK"
   tags: [punish, 0bar, easy, bnb]
+
 # overhead
 - combo: "f+LP, df+LK xx qcf+P"
   damage: 100
@@ -21,6 +23,7 @@
 - combo: "f+LP, df+LK xx hcb+PPP"
   damage: 268
   tags: [overhead, 2bar, hard]
+
 # juggle
 - combo: "cr.MP, cr.MP, df+HK, (IAT j.MK)"
   tags: [juggle, 0bar, easy, bnb]

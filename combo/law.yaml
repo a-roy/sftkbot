@@ -11,10 +11,12 @@
 - combo: "b+MP>LK>MK, cr.HP xx hcf+HK, cr.HP xx hcf+HK>hcf+K"
   damage: 345
   tags: [hitconfirm, 0bar, easy, bnb]
+
 # buffer
 - combo: "cr.MK xx hcf+MP, cl.HP xx hcb+P>P>K"
   damage: 331
   tags: [buffer, 0bar, easy]
+
 # punish
 - combo: "cl.HK, cl.MP, cr.HP xx hcf+MP, cl.HP xx hcb+P>P>K"
   damage: 404
@@ -31,13 +33,16 @@
 - combo: "cl.HK, cr.HP xx hcf+HK, cl.HK, cr.MP, cr.HP xx hcf+MK, hcf+MK, hcf+MK"
   damage: 428
   tags: [punish, 0bar, corner, medium, bnb]
+
 # overhead
 - combo: "f+MP, cr.LP, cr.MP xx hcf+MP, cl.HP xx hcb+P>P>K"
   damage: 328
   tags: [overhead, 0bar, hard, bnb]
+
 # antiair
 - combo: "hcf+MK, b+MP>MP, cr.HP xx hcb+P>P>K"
   tags: [antiair, 0bar, easy, bnb]
+
 # juggle
 - combo: "cl.HP xx hcf+HK, st.HP xx hcf+HK>hcf+K"
   tags: [juggle, 0bar, medium, bnb]

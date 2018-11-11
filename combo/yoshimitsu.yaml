@@ -8,7 +8,9 @@
 - combo: "f+HK>f+HK>f+HK, st.MK xx dp+HP"
   damage: 238
   tags: [hitconfirm, 0bar, easy, bnb]
+
 # buffer
+
 # punish
 - combo: "st.MK xx dp+HP, st.LK, st.LK, st.MK xx dp+HP"
   damage: 306
@@ -16,23 +18,29 @@
 - combo: "hcb+HK, st.MK xx dp+HP, st.LK, st.LK, st.MK xx dp+HP"
   damage: 311
   tags: [punish, 0bar, easy]
+
 # overhead
 - combo: "f+MK, st.MK xx dp+HP, st.LK, st.LK, st.MK xx dp+HP"
   damage: 311
   tags: [overhead, 0bar, counterhit, easy, bnb]
+
 # yolo
 - combo: "st.HK, st.LK, st.LK, st.MK xx dp+HP"
   damage: 252
   tags: [yolo, 0bar, corner, easy]
+
 # invulnerable
 - combo: "dp+MP, st.LK, st.LK, st.MK xx dp+HP"
   damage: 262
   tags: [invulnerable, 0bar, easy, bnb]
+
 # counterhit
+
 # antiair
 - combo: "dp+LP, st.LK, st.LK, st.MK xx dp+HP"
   damage: 242
   tags: [antiair, 0bar, easy, bnb]
+
 # juggle
 - combo: "cl.MP, cr.LP, st.MK xx dp+HP"
   tags: [juggle, 0bar, easy, bnb]

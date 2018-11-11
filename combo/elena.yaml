@@ -6,6 +6,7 @@
   damage: 304/312/331
   comment: "Enders: `ender /^hcf+MK`"
   tags: [hitconfirm, 0bar, low, standing, medium, bnb]
+
 # st.HK hitconfirm 0bar
 - combo: "st.HK, st.LK xx rdp+HK"
   damage: 216
@@ -21,6 +22,7 @@
   tags: [hitconfirm, 0bar, standing, medium]
 - combo: "st.HK, st.LK~cr.MP~cr.HP~HP_HK"
   tags: [hitconfirm, 0bar, xrush, easy]
+
 # st.HK hitconfirm 1bar
 - combo: "st.HK, st.LK~cr.MP xx qcb+KK"
   damage: 364/372/391
@@ -33,6 +35,7 @@
 - combo: "st.HK, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 388
   tags: [hitconfirm, 1bar, hard]
+
 # b+HK hitconfirm 0bar
 - combo: "b+HK, st.LK xx rdp+HK"
   damage: 206
@@ -48,6 +51,7 @@
   tags: [hitconfirm, 0bar, standing, hard]
 - combo: "b+HK, st.LK~cr.MP~cr.HP~HP_HK"
   tags: [hitconfirm, 0bar, xrush, easy]
+
 # b+HK hitconfirm 1bar
 - combo: "b+HK, st.LK~cr.MP xx qcb+KK"
   damage: 354/362/381
@@ -60,6 +64,7 @@
 - combo: "b+HK, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 378
   tags: [hitconfirm, 1bar, hard]
+
 # st.LK buffer
 - combo: "st.LK~cr.MP xx qcb+KK"
   damage: 320/330/357
@@ -68,11 +73,13 @@
 - combo: "st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 354
   tags: [buffer, 1bar, hard]
+
 # punish
 - combo: "st.HP>HK, cr.MP, cr.MP xx hcf+MK"
   damage: 400/406/421
   comment: "Enders: `ender /^hcf+MK`"
   tags: [punish, 0bar, standing, hard, bnb]
+
 # cr.MK low
 - combo: "cr.MK, st.LK~cr.MP~cr.HP~HP_HK"
   tags: [low, 0bar, xrush, hard]
@@ -83,6 +90,7 @@
 - combo: "cr.MK, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 358
   tags: [low, 1bar, hard]
+
 # f+MP overhead
 - combo: "f+MP, st.LK xx rdp+HK"
   damage: 186
@@ -99,6 +107,7 @@
 - combo: "f+MP, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 358
   tags: [overhead, 1bar, hard, bnb]
+
 # hcb+P overhead
 - combo: "hcb+LP, cr.MP xx hcf+MK"
   damage: 372/382/411
@@ -108,6 +117,7 @@
   damage: 392/402/431
   comment: "Enders: `ender /^hcf+MK`"
   tags: [overhead, 0bar, medium]
+
 # antiair
 - combo: "st.MP(1) xx CADC, cr.MP xx dp+HK"
   damage: 209
@@ -115,6 +125,7 @@
 - combo: "st.MP(2) xx CADC, cr.MP xx dp+HK"
   damage: 223
   tags: [antiair, 0bar, counterhit, medium, bnb]
+
 # juggle
 - combo: "st.MK>d+HP, cr.MP xx dp+HK(2)"
   comment: "BnB post-launch"
@@ -131,6 +142,7 @@
   tags: [juggle, 0bar, medium]
 - combo: "st.MK>d+HP, st.HK, dp+HK(2)"
   tags: [juggle, 0bar, corner]
+
 # ender
 - combo: "hcf+MK, cr.MP xx hcf+MK, df+HK"
   comment: "Starters: `/hcf+MK$`"

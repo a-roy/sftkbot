@@ -1,7 +1,7 @@
 # hitconfirm
 - combo: "cr.LK, cr.LP, st.MP > HP xx qcf+K > MK"
   damage: 215
-  tags: [low, 0bar, hitconfirm, medium, bnb]
+  tags: [hitconfirm, 0bar, low, medium, bnb]
 - combo: "cr.MP, st.MP > HP xx qcb+MP"
   comment: "Enders: `ender /^qcb+P`"
   tags: [hitconfirm, 0bar, medium, corner, bnb]
@@ -19,14 +19,16 @@
   tags: [hitconfirm, 0bar, easy, bnb]
 - combo: "cr.LK, cr.LK, cr.LK, st.MP xx qcf+K > MK"
   damage: 198
-  tags: [low, 0bar, hitconfirm, hard]
+  tags: [hitconfirm, 0bar, low, hard]
 - combo: "cr.LK, cl.MP, st.MP > HP xx qcf+K > MK"
   damage: 245
-  tags: [low, 0bar, hitconfirm, medium]
+  tags: [hitconfirm, 0bar, low, medium]
+
 # buffer
 - combo: "st.MP xx qcb+PP"
-  tags: [low, 1bar, buffer, easy]
+  tags: [buffer, 1bar, low, easy]
   comment: "Enders: `ender /^qcb+PP`"
+
 # punish
 - combo: "cr.HP, st.MP xx qcb+PP"
   tags: [punish, 1bar, easy]
@@ -37,6 +39,7 @@
 - combo: "st.LP > MP > HP > HK"
   tags: [punish, 0bar, easy]
   comment: "Enders: `ender /^LP > MP > HP > HK`"
+
 # juggle
 - combo: "cl.MK, st.MP > HP xx qcb+HK"
   tags: [juggle, 0bar, medium, bnb]
@@ -44,6 +47,7 @@
   tags: [juggle, 0bar, medium]
 - combo: "LP > MP > HP > HK xx Jump, (air) qcf+MP"
   tags: [juggle, 0bar, medium]
+
 # ender
 - combo: "LP > MP > HP > HK, walk forward, LP > MP > HP > HK xx Jump, (air) qcf+MP"
   tags: [ender, 0bar, medium, bnb]
