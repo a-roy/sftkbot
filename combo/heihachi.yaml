@@ -49,6 +49,10 @@
 - combo: "b+LP, st.LK xx qcf+LP, b+MP xx dp+MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
   damage: 367
   tags: [overhead, 0bar, medium, bnb]
+- combo: "b+LP, st.MK(1) xx qcf+LP, walk forward b+MP xx dp+HP, cl.HP xx dp+MP,
+  cl.HP xx dp+K>P"
+  damage: 387
+  tags: [overhead, 0bar, veryhard]
 - combo: "(f+LP)>MP, cl.HP xx dp+MP, cl.HP xx dp+K>P"
   damage: 329
   tags: [overhead, 0bar, easy]

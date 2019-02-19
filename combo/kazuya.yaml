@@ -1,7 +1,18 @@
+# hitconfirm
+- combo: "cr.MP, cr.MP, cr.MK xx qcf+LP"
+  damage: 252
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cr.MP, cr.MP, cr.MK xx CD>MP_HP, st.HP xx CD>LP>K"
+  damage: 353
+  tags: [hitconfirm, 0bar, easy, bnb]
+- combo: "cr.MP, cr.MP, cr.MK xx CD>MP_HP, st.HP xx qcf+PPP"
+  damage: 476
+  tags: [hitconfirm, 2bar, easy]
+
 # safe
 - combo: "EWGF, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
   damage: 462
-  tags: [safe, 0bar, hard, bnb]
+  tags: [safe, 0bar, hard, ewgf-bnb]
 - combo: "EWGF, EWGF, walk forward cr.HP xx EWGF, st.HP xx EWGF, EWGF"
   damage: 486
   tags: [safe, 0bar, veryhard]
@@ -12,6 +23,26 @@
   damage: 375
   comment: "EX charge setup"
   tags: [safe, 0bar, hard]
+
+# punish
+- combo: "cr.MP, cr.HP xx qcb+LP, cr.HP xx qcf+P"
+  damage: 357
+  tags: [punish, 0bar, easy, bnb]
+- combo: "cr.MP, cr.HP xx qcb+LP, cr.HP xx CD>K"
+  damage: 385
+  tags: [punish, 0bar, easy, bnb]
+- combo: "cr.MP, cr.HP xx qcb+LP, cr.HP xx CD>MP_HP, cr.MP, cr.HP xx qcf+P"
+  damage: 429
+  tags: [punish, 0bar, corner, easy]
+- combo: "cr.MP, cr.HP xx qcb+LP, cr.HP xx qcf+PPP"
+  damage: 511
+  tags: [punish, 2bar, easy]
+- combo: "cr.HP xx qcb+LP, cr.HP xx CD>MP_HP, cr.HP xx qcf+PPP"
+  damage: 560
+  tags: [punish, 2bar, corner, easy]
+- combo: "st.HP xx CD>MP_HP, st.HP xx CD>LP>K"
+  damage: 350
+  tags: [punish, 0bar, easy, bnb]
 
 # buffer
 - combo: "cr.MK xx CD~EWGF, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
@@ -27,9 +58,15 @@
   tags: [buffer, 0bar, low, hard]
 
 # overhead
+- combo: "f+MK, cr.MP, cr.MK xx qcf+P"
+  damage: 279
+  tags: [overhead, 0bar, counterhit, easy]
+- combo: "f+MK, cr.HP xx CD>LP>K"
+  damage: 313
+  tags: [overhead, 0bar, counterhit, easy]
 - combo: "f+MK, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
   damage: 449
-  tags: [overhead, 0bar, counterhit, hard, bnb]
+  tags: [overhead, 0bar, counterhit, hard, ewgf-bnb]
 - combo: "f+LK, EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
   damage: 462
   tags: [overhead, 0bar, counterhit, hard]
@@ -41,8 +78,12 @@
   tags: [overhead, 0bar, counterhit, corner, hard]
 
 # juggle
+- combo: "cr.MP, st.HP xx CD>LP>K"
+  tags: [juggle, easy]
+- combo: "cr.MP, st.HP xx qcf+P"
+  tags: [juggle, easy]
 - combo: "EWGF, st.MP xx EWGF, st.HP xx EWGF, EWGF"
-  tags: [juggle, 0bar, hard, bnb]
+  tags: [juggle, 0bar, hard, ewgf-bnb]
 - combo: "EWGF, cr.HP xx EWGF, st.HP xx EWGF, EWGF"
   tags: [juggle, 0bar, veryhard]
 - combo: "st.MP, st.HP xx CD>K"
@@ -53,4 +94,4 @@
   tags: [juggle, 0bar, medium]
 - combo: "cr.HP xx EWGF, st.HP xx CD>K"
   comment: "EX charge setup"
-  tags: [juggle, 0bar, hard, bnb]
+  tags: [juggle, 0bar, hard, ewgf-bnb]
