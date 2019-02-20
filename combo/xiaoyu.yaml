@@ -65,6 +65,8 @@
 # juggle
 - combo: "cl.HP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
   tags: [juggle, 0bar, easy, bnb]
+- combo: "qcb+LP, cl.HP xx qcb+LP, qcf+LP/cr.HK"
+  tags: [juggle, 0bar, easy, bnb]
 - combo: "cr.HP xx CADC, cl.HP xx d+PPP, AOP cancel, cr.MK xx qcb+MP,
   qcf+LP/cr.HK"
 tags: [juggle, 0bar, hard]
