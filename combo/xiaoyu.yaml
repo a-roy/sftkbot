@@ -47,8 +47,8 @@
   tags: [safe, 0bar, low, corner, medium]
 
 # overhead
-- combo: "f+MK, cl.HP xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
-  damage: 344/335
+- combo: "f+MK, qcb+MP, cl.HP xx qcb+LP, qcf+LP/cr.HK"
+  damage: 346/337
   tags: [overhead, 0bar, easy, bnb]
 
 # yolo
@@ -58,10 +58,18 @@
 - combo: "RDS qcf+K>K, RDS cancel, cr.MK xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
   damage: 384/375
   tags: [yolo, 0bar, medium, bnb]
+- combo: "st.MK, cr.LP xx qcf+HP, RDS P>P>d, AOP P, st.MP xx qcb+MP, qcb+LP, qcf+LP/cr.HK"
+  damage: 377/374
+  tags: [yolo, 0bar, hard, hitconfirm]
 
 # juggle
 - combo: "cl.HP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
   tags: [juggle, 0bar, easy, bnb]
 - combo: "cr.HP xx CADC, cl.HP xx d+PPP, AOP cancel, cr.MK xx qcb+MP,
   qcf+LP/cr.HK"
-  tags: [juggle, 0bar, hard]
+tags: [juggle, 0bar, hard]
+
+#punish
+- combo: "qcf+KK, cr.HP xx qcb+LP, qcf+LP/cr.HK"
+  damage: 343/333
+  tags: [punish, 1bar, easy]
