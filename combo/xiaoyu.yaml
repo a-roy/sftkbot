@@ -71,7 +71,7 @@
   tags: [juggle, 0bar, easy, bnb]
 - combo: "cr.HP xx CADC, cl.HP xx d+PPP, AOP cancel, cr.MK xx qcb+MP,
   qcf+LP/cr.HK"
-tags: [juggle, 0bar, hard]
+  tags: [juggle, 0bar, hard]
 
 #punish
 - combo: "qcf+KK, cr.HP xx qcb+LP, qcf+LP/cr.HK"
@@ -87,4 +87,4 @@ tags: [juggle, 0bar, hard]
   tags: [ender, 0bar, easy]
 - combo: "AOP P, st.MP xx d+PPP AOP qcf+K (1st hit) MP+MK"
   comment: 'Starters: "`/AOP P$`"'
-  tags: [ender, 1bar, medium]
+  tags: [ender, 1bar, switch, medium]
