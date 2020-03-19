@@ -28,13 +28,14 @@ async def on_ready():
 
 @bot.command(aliases=["Frames"])
 async def frames(char : str, *move : str):
-    """Looks up frame data for a move."""
+    Looks up frame data for a move.
     await bot.type()
     if (len(move) == 0):
         move = [char]
         char = "#Misc Data#"
     fd = {}
     try:
+        return
         fd = sftklib.frames(char, ' '.join(move))
     except (BrokenPipeError, ConnectionAbortedError) as e:
         await bot.say('Failed to retrieve data.')
@@ -59,20 +60,19 @@ async def frames(char : str, *move : str):
         await bot.say(embed=embed)
 
 @bot.command(aliases=["Partner"])
-async def partner(char : str):
+async def partner(ctx, *, char):
     """Suggests potential partners for a character."""
     c = prep(char)
     if c == 'bison': c = 'mbison'
-    await bot.say(sftklib.partner(c))
+    await ctx.send(sftklib.partner(c))
 
 @bot.command(aliases=["Combo", "combos", "Combos"])
-async def combo(char : str, *tags : str):
+async def combo(ctx, char, *tags):
     """Looks up combos for a character."""
-    await bot.type()
     c = prep(char)
     if c == 'bison': c = 'mbison'
     try:
-        message, details = sftklib.search(c, tags)
+        message, details, postmessage = sftklib.search(c, tags)
     except FileNotFoundError:
         await bot.say('Character not available: **{0}**'.format(c))
     else:
@@ -83,12 +83,15 @@ async def combo(char : str, *tags : str):
             embed.set_thumbnail(url=sftkweb.pics[c])
         for k, v in details.items():
             embed.add_field(name=k, value=v)
-        await bot.say(embed=embed)
+        if postmessage != "":
+            embed.add_field(name="Enders", value=postmessage)
+        await ctx.send(embed=embed)
 
 @bot.command(aliases=["Synergy"])
-async def synergy(char : str, *extra : str):
+async def synergy(ctx, *args):
     """Summarizes partner considerations for a character."""
-    await bot.type()
+    char = args[0]
+    extra = args[1:]
     section = None
     detail = None
     if len(extra) >= 1:
@@ -109,17 +112,17 @@ async def synergy(char : str, *extra : str):
             embed.set_thumbnail(url=sftkweb.pics[c])
         for k, v in details.items():
             embed.add_field(name=k, value=v)
-        await bot.say(embed=embed)
+        await ctx.send(embed=embed)
 
 @bot.command(aliases=["Sanford"])
 async def sanford():
     """Pick a top tier!"""
-    await bot.say("https://www.youtube.com/watch?v=sGh4ZU4H5Hk")
+    await ctx.send("https://www.youtube.com/watch?v=sGh4ZU4H5Hk")
 
 @bot.command(aliases=["Desmond"])
 async def desmond():
     """Only broken games are good!"""
-    await bot.say("https://www.youtube.com/watch?v=_jyPQaHftWk")
+    await ctx.send("https://www.youtube.com/watch?v=_jyPQaHftWk")
 
 @bot.command(aliases=["Tiers", "tier", "tierlist"])
 async def tiers():
