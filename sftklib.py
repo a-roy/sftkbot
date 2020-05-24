@@ -3,6 +3,7 @@
 import yaml
 import re
 from collections import defaultdict,OrderedDict
+from itertools import zip_longest
 from operator import itemgetter
 import httplib2
 from apiclient import discovery
@@ -214,17 +215,18 @@ def frames(char, move):
         ss = service.spreadsheets().values().get(spreadsheetId=spreadsheetId1,
                 range='{0}!A:N'.format(char.title())).execute()
         sheet = ss['values']
+    headers = [val.strip() for val in sheet[0]]
     pmove = parse_move(move, sheet)[0]
-    d = OrderedDict()
-    command = (sheet[0][1] == 'Command')
+    use_command = (headers[1] == 'Command')
     for row in sheet[1:]:
         parse0 = parse_move(row[0], sheet)
-        parse1 = parse_move(row[1], sheet) if command else ''
+        parse1 = parse_move(row[1], sheet) if use_command else ''
         if pmove in parse0 or pmove in parse1:
-            for i in range(len(sheet[0])):
-                d[sheet[0][i].strip()] = row[i] or '-'
-            break
-    return d
+            return OrderedDict(zip_longest(
+                headers,
+                (val or '-' for val in row),
+                fillvalue='-'))
+    return OrderedDict()
 
 def lookup_move(move, sheet):
     if move.title() in stances:
