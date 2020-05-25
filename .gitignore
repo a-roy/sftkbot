@@ -1,0 +1,13 @@
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+.idea
+pip-selfcheck.json
+SFTKBot-discord.json
+__pycache__

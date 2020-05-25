@@ -1,11 +1,11 @@
 # hitconfirm
 - combo: "cl.LP, cl.LP/st.LP, cr.MK xx d+PPP, AOP P"
   damage: 310/305
-  comment: 'Enders: `ender "/^AOP P"`'
+  etype: "AOP P"
   tags: [hitconfirm, 0bar, easy, bnb]
 - combo: "st.MK, cl.MP(2) xx d+PPP, AOP P"
   damage: 364/358
-  comment: 'Enders: `ender "/^AOP P"`'
+  etype: "AOP P"
   tags: [hitconfirm, 0bar, medium]
 - combo: "st.MK, cl.MP(2) xx d+PPP, AOP P, st.MK, cl.HP xx d+PPP, AOP cancel,
   cr.MK xx qcb+MP, qcf+LP/cr.HK"
@@ -19,7 +19,7 @@
 # safe
 - combo: "cl.HP xx d+PPP, AOP P"
   damage: 376/383
-  comment: 'Enders: `ender "/^AOP P"`'
+  etype: "AOP P"
   tags: [safe, 0bar, punish, easy]
 - combo: "cl.HP xx d+PPP, AOP P, st.MK, cl.HP xx d+PPP, AOP cancel,
   cr.MK xx qcb+MP, qcf+LP/cr.HK"
@@ -30,7 +30,7 @@
   tags: [safe, 0bar, medium, bnb]
 - combo: "AOP qcb+HK, cr.HP xx d+PPP, AOP P"
   damage: 444/438
-  comment: 'Enders: `ender "/^AOP P`"'
+  etype: "AOP P"
   tags: [safe, 0bar, medium]
 - combo: "RDS PP>P>d, AOP P, st.MP xx qcb+LP, qcb+LP, qcf+LP/cr.HK"
   damage: 404/398
@@ -61,7 +61,7 @@
   tags: [yolo, 0bar, medium, bnb]
 - combo: "st.MK, cr.LP xx qcf+HP, RDS P>P>d, AOP P"
   damage: 377/374
-  comment: 'Enders: `ender "/^AOP P`"'
+  etype: "AOP P"
   tags: [yolo, 0bar, hard, hitconfirm]
 
 # juggle
@@ -80,11 +80,18 @@
 
 # enders
 - combo: "AOP P, st.MP xx qcb+MP, qcb+LP, cr.HK"
-  comment: 'Starters: "`/AOP P$`"'
+  estart: "AOP P"
+  comment: "Midscreen Oki Ender"
   tags: [ender, 0bar, easy]
 - combo: "AOP P, st.MP xx qcb+MP, qcb+LP, qcf+LP"
-  comment: 'Starters: "`/AOP P$`"'
+  estart: "AOP P"
+  comment: "Midscreen Damage Ender"
   tags: [ender, 0bar, easy]
 - combo: "AOP P, st.MP xx d+PPP AOP qcf+K (1st hit) MP+MK"
-  comment: 'Starters: "`/AOP P$`"'
-  tags: [ender, 1bar, switch, medium]
+  etype: "AOP P"
+  comment: "Midscreen Tag Ender"
+  tags: [ender, 0bar, medium]
+- combo: "AOP P, cr.HP xx d+PPP AOP qcf+K (1st hit) MP+MK"
+  etype: "AOP P"
+  comment: "Corner Tag Ender"
+  tags: [ender, 0bar, medium, corner]

@@ -1,29 +1,29 @@
 # hitconfirm
 - combo: "cr.LP, st.LP, st.MP xx qcf+MP"
   damage: 266/286
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [hitconfirm, 0bar, low, medium]
 - combo: "cr.LP, st.LP>f+MP xx qcf+MP"
   damage: 266/286
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [hitconfirm, 0bar, low, easy, bnb]
 - combo: "cr.LP, cr.LP>MK xx qcf+MP"
   damage: 266/286
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [hitconfirm, 0bar, low, hard]
 - combo: "cr.LP, st.LP, cr.LK~st.MK>MK xx qcf+MP"
   damage: 267/272
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [hitconfirm, 0bar, low, medium]
 - combo: "cr.LK~st.MK>MK xx qcf+MP"
   damage: 302/322
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [hitconfirm, 0bar, low, buffer, easy, bnb]
 
 # buffer
 - combo: "cr.MK xx qcf+MP"
   damage: 285/329
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [buffer, 0bar, low, easy]
 
 # punish
@@ -42,7 +42,7 @@
 # overhead
 - combo: "(cr.LP>MK>d+HK)>LK xx qcf+MP"
   damage: 285/329
-  comment: "Enders: `ender /^qcf+MP`"
+  etype: "qcf+MP"
   tags: [overhead, 0bar, easy]
 - combo: "(f+HK)>HK/(cr.LP>MK>d+HK>MK)>HK, cr.HP xx hcb+LP, walk forward cr.HK"
   damage: 300
@@ -78,8 +78,8 @@
 
 # ender
 - combo: "qcf+MP, cr.LP, cr.HP xx hcb+LP"
-  comment: "Starters: `/qcf+MP$`"
+  estart: "qcf+MP"
   tags: [ender, 0bar, easy, bnb]
 - combo: "qcf+MP, st.MP, cr.LK~st.MK>MK xx qcf+K, HSP f"
-  comment: "Starters: `/qcf+MP$`"
+  estart: "qcf+MP"
   tags: [ender, 0bar, midscreen, medium, bnb]
