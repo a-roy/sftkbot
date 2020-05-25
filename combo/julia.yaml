@@ -7,14 +7,14 @@
   tags: [hitconfirm, 0bar, easy]
 - combo: "cr.LP, b+MP>MP"
   damage: 247/310 # SA: 373
-  comment: "Enders: `ender /^b+MP>MP`"
+  etype: "b+MP>MP"
   tags: [hitconfirm, 0bar, easy, bnb]
 - combo: "st.MP, b+MP>LP xx qcb+P"
   damage: 263
   tags: [hitconfirm, 0bar, easy]
 - combo: "st.MP, b+MP>MP"
   damage: 277/340 # SA: 403/444
-  comment: "Enders: `ender /^b+MP>MP`"
+  etype: "b+MP>MP"
   tags: [hitconfirm, 0bar, easy]
 - combo: "cr.LP, cr.LP, cr.HP xx qcb+[P]~f,f+MP, cr.MK xx qcb+P"
   damage: 285
@@ -153,15 +153,15 @@
 
 # ender
 - combo: "b+MP>MP, cr.LK xx qcb+P"
-  comment: "Starters: `/b+MP>MP$`"
+  estart: "b+MP>MP"
   tags: [ender, 0bar, easy, bnb]
 - combo: "b+MP>MP, cr.LP, f+HP, cr.HP xx qcb+P"
-  comment: "Starters: `/b+MP>MP$`\n
-  Need to be relatively deep in the corner; does not work after `f,f+MP`"
+  estart: "b+MP>MP"
+  comment: "Need to be relatively deep in the corner; does not work after `f,f+MP`"
   tags: [ender, 0bar, corner, medium, bnb]
 - combo: "b+MP>MP, qcb+PPP"
-  comment: "Starters: `/b+MP>MP$`"
+  estart: "b+MP>MP"
   tags: [ender, 2bar, easy]
 - combo: "b+MP>MP, cr.HP xx qcb+PPP"
-  comment: "Starters: `/b+MP>MP$`"
+  estart: "b+MP>MP"
   tags: [ender, 2bar, corner, medium]

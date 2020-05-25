@@ -28,14 +28,13 @@ async def on_ready():
 
 @bot.command(aliases=["Frames"])
 async def frames(ctx, char : str, move : commands.Greedy[str]):
-    #Looks up frame data for a move.
+    """Looks up frame data for a move."""
     await bot.type()
     if (len(move) == 0):
         move = [char]
         char = "#Misc Data#"
     fd = {}
     try:
-        return
         fd = sftklib.frames(char, ' '.join(move))
     except (BrokenPipeError, ConnectionAbortedError) as e:
         print(e, file=sys.stderr)
