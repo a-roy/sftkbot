@@ -25,5 +25,5 @@ rsa==4.0
 six==1.14.0
 uritemplate==3.0.1
 urllib3==1.25.8
-websockets==8.1
+websockets==7.0
 yarl==1.4.2

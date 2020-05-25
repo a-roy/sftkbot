@@ -27,7 +27,7 @@ async def on_ready():
     print('------')
 
 @bot.command(aliases=["Frames"])
-async def frames(ctx, char : str, move : commands.Greedy[str]):
+async def frames(ctx, char : str, *move):
     """Looks up frame data for a move."""
     await bot.type()
     if (len(move) == 0):
@@ -66,7 +66,7 @@ async def partner(ctx, *, char):
     await ctx.send(sftklib.partner(c))
 
 @bot.command(aliases=["Combo", "combos", "Combos"])
-async def combo(ctx, char, tags : commands.Greedy[str]):
+async def combo(ctx, char, *tags):
     """Looks up combos for a character."""
     c = prep(char)
     if c == 'bison': c = 'mbison'

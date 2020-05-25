@@ -8,6 +8,15 @@
 pyvenv.cfg
 .venv
 .idea
+
+*.pyc
+
 pip-selfcheck.json
-SFTKBot-discord.json
+client_id.json
+SFTKBot-*.json
+
 __pycache__
+
+*.swp
+*.swo
+*.swn
