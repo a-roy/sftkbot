@@ -27,8 +27,8 @@ async def on_ready():
     print('------')
 
 @bot.command(aliases=["Frames"])
-async def frames(char : str, *move : str):
-    Looks up frame data for a move.
+async def frames(ctx, char : str, move : commands.Greedy[str]):
+    #Looks up frame data for a move.
     await bot.type()
     if (len(move) == 0):
         move = [char]
@@ -38,14 +38,14 @@ async def frames(char : str, *move : str):
         return
         fd = sftklib.frames(char, ' '.join(move))
     except (BrokenPipeError, ConnectionAbortedError) as e:
-        await bot.say('Failed to retrieve data.')
         print(e, file=sys.stderr)
+        await ctx.send('Failed to retrieve data.')
     except HttpError as e:
-        await bot.say('Character not found: **{0}**'.format(char))
+        await ctx.send('Character not found: **{0}**'.format(char))
     except Exception as e:
         print(type(e), file=sys.stderr)
         print(e, file=sys.stderr)
-        await bot.say('An error has occurred.')
+        await ctx.send('An error has occurred.')
     else:
         embed = discord.Embed(
                 title='{0}'.format(char.title()))
@@ -57,7 +57,7 @@ async def frames(char : str, *move : str):
             embed.description = 'Move not found.'
         for k, v in fd.items():
             embed.add_field(name=k, value=v)
-        await bot.say(embed=embed)
+        await ctx.send(embed=embed)
 
 @bot.command(aliases=["Partner"])
 async def partner(ctx, *, char):
@@ -67,14 +67,14 @@ async def partner(ctx, *, char):
     await ctx.send(sftklib.partner(c))
 
 @bot.command(aliases=["Combo", "combos", "Combos"])
-async def combo(ctx, char, *tags):
+async def combo(ctx, char, tags : commands.Greedy[str]):
     """Looks up combos for a character."""
     c = prep(char)
     if c == 'bison': c = 'mbison'
     try:
         message, details, postmessage = sftklib.search(c, tags)
     except FileNotFoundError:
-        await bot.say('Character not available: **{0}**'.format(c))
+        await ctx.send('Character not available: **{0}**'.format(c))
     else:
         embed = discord.Embed(
                 title='{0} combos'.format(c.capitalize()),
@@ -115,18 +115,18 @@ async def synergy(ctx, *args):
         await ctx.send(embed=embed)
 
 @bot.command(aliases=["Sanford"])
-async def sanford():
+async def sanford(ctx):
     """Pick a top tier!"""
     await ctx.send("https://www.youtube.com/watch?v=sGh4ZU4H5Hk")
 
 @bot.command(aliases=["Desmond"])
-async def desmond():
+async def desmond(ctx):
     """Only broken games are good!"""
     await ctx.send("https://www.youtube.com/watch?v=_jyPQaHftWk")
 
 @bot.command(aliases=["Tiers", "tier", "tierlist"])
-async def tiers():
-    await bot.say(sftklib.tiers())
+async def tiers(ctx):
+    await ctx.send(sftklib.tiers())
 
 if __name__ == '__main__':
     api_token = ''
