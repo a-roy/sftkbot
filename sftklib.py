@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
 import yaml
+from yaml import Loader
 import re
 from collections import defaultdict,OrderedDict
 from itertools import zip_longest
 from operator import itemgetter
 import httplib2
-from apiclient import discovery
+from googleapiclient import discovery
 from oauth2client.service_account import ServiceAccountCredentials
 
 scope = ['https://spreadsheets.google.com/feeds']
@@ -49,16 +50,20 @@ stances = {
         }
 
 def partner(char):
-    partners = yaml.load(open('partner.yaml'))
+    partners = yaml.load(open('partner.yaml'), Loader=Loader)
     if char in partners:
         return partners[char]
     else:
         return "Character not found: **{0}**".format(char)
 
 def search(char, tags):
-    combos = yaml.load(open('combo/{0}.yaml'.format(char)))
+    combos = yaml.load(open('combo/{0}.yaml'.format(char)), Loader=Loader)
     results = []
-    hidden = []
+    hidden = ["etype", "estart"]
+    etypes = list(set([c.get("etype") for c in combos if "etype" in c]))
+    estart_counts = {}
+    for et in etypes:
+        estart_counts[et] = len([c.get("estart").lower() == et for c in combos if "estart" in c])
     for tag in tags:
         if tag[0] == '/' or tag[0] == '-':
             continue
@@ -86,6 +91,15 @@ def search(char, tags):
                     break
         if match:
             results.append(i)
+    if "ender" in tags:
+        estart = None
+        for t in tags:
+            if t.lower() in map(lambda t: t.lower(), etypes):
+                estart = t
+                break
+        if estart is not None:
+            results = [r for r in results if combos[r].get("estart").lower() == estart.lower()]
+    has_ender = "ender" in tags
     num = len(results)
     if num == 0:
         return 'No results found.', {}
@@ -93,7 +107,8 @@ def search(char, tags):
         filters = defaultdict(int)
         for i in results:
             for t in combos[i]['tags']:
-                filters[t] += 1
+                if not has_ender and t != "ender":
+                    filters[t] += 1
         return 'Too many results ({0}).'.format(num), {'Available filters':
                 '\n'.join(['{0}({1})'.format(tag, count) for tag, count in
                     sorted(filters.items(),key=itemgetter(1),reverse=True)
@@ -107,6 +122,8 @@ def search(char, tags):
             output.clear()
             for i in results:
                 combo = combos[i]
+                if not has_ender and "ender" in combo['tags']:
+                    continue
                 head_tags = combo['tags'][:depth]
                 k = ' '.join(head_tags)
                 if k not in output:
@@ -116,7 +133,22 @@ def search(char, tags):
             if len(output) > 1 or len(results) == 1:
                 break
             depth += 1
-        return message, output
+        outmsg = ""
+        if not has_ender:
+            result_etypes = []
+            for r_idx in results:
+                combo = combos[r_idx]
+                if "etype" not in combo:
+                    continue
+                etype = combo["etype"]
+                if etype not in result_etypes:
+                    result_etypes.append(etype)
+            if len(result_etypes) > 0:
+                outmsg += "**Compatible Enders:**\n"
+                for res_et in result_etypes:
+                    num_enders = len(list(filter(lambda c: ("estart" in c and c["estart"] == res_et), combos)))
+                    outmsg += "From {1}: {0} Enders\n".format(num_enders, res_et)
+        return message, output, outmsg
 
 def combo_string(combo, hidden):
     output = '`{0}`'.format(combo['combo'])
@@ -128,11 +160,12 @@ def combo_string(combo, hidden):
     tags = combo['tags']
     if len(tags):
         s = ', '.join([t for t in tags if t not in hidden])
-        output += '\n*({0})*'.format(s)
+        if s != "":
+            output += '\n*({0})*'.format(s)
     return output
 
 def synergy(char, section='', partner=''):
-    db = yaml.load(open('synergy.yaml'))
+    db = yaml.load(open('synergy.yaml'), Loader=Loader)
     if char not in db:
         raise Exception("Character not available: **{0}**".format(char))
     info = db[char]

@@ -4,7 +4,7 @@
   tags: [hitconfirm, 0bar, low, medium, bnb]
 - combo: "cr.LK, cr.LK, cr.MP xx hcf+MK"
   damage: 304/312/331
-  comment: "Enders: `ender /^hcf+MK`"
+  etype: "hcf+MK"
   tags: [hitconfirm, 0bar, low, standing, medium, bnb]
 
 # st.HK hitconfirm 0bar
@@ -26,11 +26,11 @@
 # st.HK hitconfirm 1bar
 - combo: "st.HK, st.LK~cr.MP xx qcb+KK"
   damage: 364/372/391
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [hitconfirm, 1bar, medium]
 - combo: "st.HK, cr.LK, cr.MP xx qcb+KK"
   damage: 378/386/405
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [hitconfirm, 1bar, medium]
 - combo: "st.HK, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 388
@@ -55,11 +55,11 @@
 # b+HK hitconfirm 1bar
 - combo: "b+HK, st.LK~cr.MP xx qcb+KK"
   damage: 354/362/381
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [hitconfirm, 1bar, medium]
 - combo: "b+HK, cr.LK, cr.MP xx qcb+KK"
   damage: 368/376/395
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [hitconfirm, 1bar, medium]
 - combo: "b+HK, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 378
@@ -68,7 +68,7 @@
 # st.LK buffer
 - combo: "st.LK~cr.MP xx qcb+KK"
   damage: 320/330/357
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [buffer, 1bar, easy]
 - combo: "st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 354
@@ -77,7 +77,7 @@
 # punish
 - combo: "st.HP>HK, cr.MP, cr.MP xx hcf+MK"
   damage: 400/406/421
-  comment: "Enders: `ender /^hcf+MK`"
+  etype: "hcf+MK"
   tags: [punish, 0bar, standing, hard, bnb]
 
 # cr.MK low
@@ -85,7 +85,7 @@
   tags: [low, 0bar, xrush, hard]
 - combo: "cr.MK, st.LK~cr.MP xx qcb+KK"
   damage: 334/342/361
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [low, 1bar, hard]
 - combo: "cr.MK, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 358
@@ -102,7 +102,7 @@
   tags: [overhead, 0bar, xrush, hard]
 - combo: "f+MP, st.LK~cr.MP xx qcb+KK"
   damage: 334/342/361
-  comment: "Enders: `ender /^qcb+KK`"
+  etype: "qcb+KK"
   tags: [overhead, 1bar, hard]
 - combo: "f+MP, st.LK~cr.MP xx rdp+KK, j.MP>HP, st.HK, dp+HK"
   damage: 358
@@ -111,11 +111,11 @@
 # hcb+P overhead
 - combo: "hcb+LP, cr.MP xx hcf+MK"
   damage: 372/382/411
-  comment: "Enders: `ender /^hcf+MK`"
+  etype: "hcf+MK"
   tags: [overhead, 0bar, medium, bnb]
 - combo: "hcb+MP, cr.MP xx hcf+MK"
   damage: 392/402/431
-  comment: "Enders: `ender /^hcf+MK`"
+  etype: "hcf+MK"
   tags: [overhead, 0bar, medium]
 
 # antiair
@@ -145,19 +145,26 @@
 
 # ender
 - combo: "hcf+MK, cr.MP xx hcf+MK, df+HK"
-  comment: "Starters: `/hcf+MK$`"
+  estart: "hcf+MK"
   tags: [ender, 0bar, easy, bnb]
+  comment: "Knockdown ender"
 - combo: "hcf+MK, cr.MP xx hcf+MK, dp+HK"
-  comment: "Starters: `/hcf+MK$`"
+  estart: "hcf+MK"
   tags: [ender, 0bar, hard]
+  comment: "Tag ender"
 - combo: "hcf+MK, st.MK>d+HP, st.HK, dp+HK"
+  estart: "hcf+MK"
   tags: [ender, 0bar, corner, hard, bnb]
+  comment: "Tag ender"
 - combo: "qcb+KK, cr.MP xx hcf+HK, df+HK"
-  comment: "Starters: `/qcb+KK$`"
+  estart: "qcb+KK"
   tags: [ender, 1bar, medium]
+  comment: "Knockdown ender"
 - combo: "qcb+KK, cr.MP xx hcf+HK, dp+HK"
-  comment: "Starters: `/qcb+KK$`"
+  estart: "qcb+KK"
   tags: [ender, 1bar, medium]
+  comment: "Tag ender"
 - combo: "qcb+KK, st.MK>d+HP, st.HK, dp+HK"
-  comment: "Starters: `/qcb+KK$`"
+  estart: "qcb+KK"
   tags: [ender, 1bar, corner, medium]
+  comment: "Tag ender"
