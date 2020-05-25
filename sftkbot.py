@@ -58,7 +58,7 @@ async def frames(ctx, char : str, *move):
             embed.add_field(name=k, value=v)
         await ctx.send(embed=embed)
 
-@bot.command(aliases=["Partner"])
+#@bot.command(aliases=["Partner"])
 async def partner(ctx, *, char):
     """Suggests potential partners for a character."""
     c = prep(char)
@@ -86,7 +86,7 @@ async def combo(ctx, char, *tags):
             embed.add_field(name="Enders", value=postmessage)
         await ctx.send(embed=embed)
 
-@bot.command(aliases=["Synergy"])
+#@bot.command(aliases=["Synergy"])
 async def synergy(ctx, *args):
     """Summarizes partner considerations for a character."""
     char = args[0]
